@@ -1,5 +1,0 @@
-feature dlig {
-  sub o x by ox;
-  sub t t by tt;
-} dlig;
-
