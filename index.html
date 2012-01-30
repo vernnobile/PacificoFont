@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html class="ie-lte-8" lang="en">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Webfont Test Document</title>
+    <style type="text/css">
+    * {
+ -moz-font-feature-settings: "liga=1, dlig=1";
+    -ms-font-feature-settings: "liga", "dlig";
+    -webkit-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig";
+  }
+body {
+  background-color: #eeeeee;
+  font-family: "specimen";
+}
+@font-face {
+  font-family: "specimen";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Pacifico.ttf");
+}
+.kern {
+  text-rendering: optimizelegibility;
+
+}
+.nokern {
+  color: red;
+  text-rendering: optimizespeed;
+}
+.autokern {
+  text-rendering: optimizelegibility;
+  color: blue;
+}
+.menu {
+  width: auto;
+  background-color: #333333;
+  font-size: 11pt;
+  color: white;
+  height: 21pt;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  padding-left: 4px;
+  line-height: 21pt;
+  margin-left: 55px;
+}
+.menuVert {
+  width: auto;
+  font-size: 11pt;
+  padding-top: 44px;
+  padding-left: 4px;
+  line-height: 21pt;
+}
+.menu ul {
+  margin-top: 0pt;
+  margin-right: 0pt;
+  margin-bottom: 0pt;
+  margin-left: 0pt;
+  padding-top: 0pt;
+  padding-right: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 0pt;
+  float: left;
+  height: 21pt;
+}
+.menu ul li {
+  display: inline;
+  height: 21pt;
+}
+.menu ul li a {
+  float: left;
+  text-decoration: none;
+  color: white;
+  padding-right: 10.5px;
+  padding-left: 10.5px;
+  background-color: #333333;
+  height: 5pt;
+}
+.menu ul li a:visited {
+  color: white;
+}
+.menu ul li a:hover, .menu ul li .current {
+  color: white;
+  background-color: #333333;
+  height: 8px;
+}
+#mainBox {
+  margin-top: 55px;
+  margin-right: 55px;
+  margin-bottom: 55px;
+  margin-left: 55px;
+  padding-top: 21px;
+  padding-right: 21px;
+  padding-bottom: 21px;
+  padding-left: 21px;
+  background-color: white;
+  width: auto;
+  height: auto;
+}
+.textBox {
+  width: auto;
+  margin-right: 21px;
+  margin-bottom: 55px;
+  margin-left: 55px;
+  background-color: white;
+}
+.textBoxTwo {
+  width: auto;
+  margin-top: 55px;
+  margin-right: 21px;
+  margin-bottom: 55px;
+  margin-left: 21px;
+  background-color: white;
+}
+.twoColumnBox {
+  width: 860px;
+}
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+.specimen {
+  font-family: 'specimen';
+}
+.headerOne {
+  margin-left: 55px;
+  font-weight: bold;
+  margin-top: 21px;
+  margin-bottom: 5px;
+}
+.textTop {
+  vertical-align: top;
+}
+#columnWrapper {
+  margin-right: 0pt;
+  margin-bottom: 0pt;
+  margin-left: 55px;
+  background-color: white;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 2px 0pt;
+  list-style-type: none;
+}
+#columnWrapper ul {
+  margin-top: 4px;
+  margin-right: 0pt;
+  margin-bottom: 0pt;
+  margin-left: 4px;
+  padding-top: 0pt;
+  padding-right: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 0pt;
+  float: left;
+  font-size: 12px;
+  width: 200px;
+  list-style-type: none;
+}
+.uppercase {
+}
+</style> </head>
+  <body>
+    <div id="mainBox">
+      <div class="menu kern" style="margin-bottom: 3px;">
+        <ul>
+          <li><a href="#">hamburger</a></li>
+          <li><a href="#">adhesion</a></li>
+          <li><a href="#">firehouse</a></li>
+          <li><a href="#">chemical</a></li>
+          <li><a href="#">tokyo</a></li>
+          <li><a href="#">francisco</a></li>
+          <li><a href="#">rinascimento</a></li>
+          <li><a href="#">kern=normal</a></li>
+        </ul>
+        <br style="clear: left;">
+      </div>
+      <div class="menu nokern">
+        <ul>
+          <li><a href="#">hamburger</a></li>
+          <li><a href="#">adhesion</a></li>
+          <li><a href="#">firehouse</a></li>
+          <li><a href="#">chemical</a></li>
+          <li><a href="#">tokyo</a></li>
+          <li><a href="#">francisco</a></li>
+          <li><a href="#">rinascimento</a></li>
+          <li><a href="#">kern=none</a></li>
+        </ul>
+        <br style="clear: left;">
+      </div>
+      <table style="width: 100%;" border="0">
+        <tbody>
+          <tr>
+            <td style="width: 50%; vertical-align: top;" class="textTop">
+              <div class="headerOne">Hotel Theorem's Cut Right Through.</div>
+              <div style="font-size: 9pt; line-height: 13.5pt;" class="textBox">font-size:9pt,
+                line-height:13.5pt, kern=normal<br>
+                Veil, ruck, tod, vitae arcosolia a a to, ute sod tan, rich,
+                lachrymally foe bitterweed. Creak limen volatile,
+                coenzymatically, a fleeing a postgastric, trichromatist, erses
+                void symptom gel virgos servals. Ixias, venomly, apoharmine,
+                subnodes, quiff haloing, stoure slidometer, eve. If, zig at,
+                syriac, parnas um, heeltree, mediacies. Adcon vin pang
+                impossibilist, bigly pre, cabda. Ovolo hospitalism, quebrith.
+                Jibber, how. Ow commanding, tetrazane, a gaudful myst yowl gnaw,
+                trophesy, petulancy pawn. Me chromaffin, by hazard coloss, to,
+                part helms, cot arms am, compliers, reinvokes. Poldoody
+                hemihydrate pertest, zig overabundant, eye of bad, cane, tale
+                nick halted, rigs wale um, he a pus. Loros we, qty, uh cowy,
+                whaddie grizzlies. Jararacussu, cone, nonappendent, alburnum,
+                scliff, rats, fuelers. Pen monday bowly, colourational, up.
+                Merocelic en gob, apocrustic it, vile impawns, doina, macaw,
+                interbastate dub, sos. Gangrening hypogastria, maws. Lout cotula
+                majestic glottal pacs, heed, parahopeite, sun, to, ya icaco abed
+                molded ale, fore. Malefic decoke fig, a a oh. Solo maw thy, deal
+                sins, pics, duplicia unstreng wardite, overslept luffas boo
+                procreate segou lick chicadee teratology eve, a muled muskit em,
+                fleckless. Canty dickey a a my, a me wino allgood acast
+                nonjurying twiggiest brave, brink discompose chrismatite
+                undertenter cloudcap, asp to, dye in, snowstorms reality aged
+                oaks prissies whinstone fig. Blackheartedly, indirected.
+                Nontrigonometrical rembrandt provicar, pee, maw bean in,
+                hekhsher. Reaffiliate a bepun, rottle roarer an a foot
+                decorable, on celebe, keen, noun ton. Deb dispair fops a
+                pleurocarp, know, sofar poet, colegatee, redtapism unfecund,
+                brio, slum us. Gemmy oleo oak uninventibleness be bolivar, fumet
+                a via a me to. Nob, uh a blam honorifical, poinds. Am, boo
+                seating, kirby wervel, ref, advance lacertoid, ox bin chocho.
+                Ramaism, crumb. Whoop, nonagglomerative, met us, rebait achy,
+                use cabs tayassu. Spectrographs revs, chous, chinkers, dahms hob
+                adjugate, cancrisocial whirs. Repps, winter, strategist, nun,
+                recomember.</div>
+            </td>
+            <td style="width: 20%; vertical-align: top;" class="textTop">
+              <div style="font-size: 9pt;" class="menuVert kern">
+                <ul>
+                  <li>Solo Lemonade</li>
+                  <li>Ramanism</li>
+                  <li>Spectrographs</li>
+                  <li>Winter Kill</li>
+                  <li>Strategist</li>
+                  <li>Monument Albautem</li>
+                  <li>Farbenfabriken</li>
+                  <li>Licht und Schatten</li>
+                  <li>Biblioteca</li>
+                  <li>Pinewood</li>
+                  <li>Albertus</li>
+                  <li>Cartographer</li>
+                  <li>Delicate Orchids</li>
+                  <li>Strategist</li>
+                  <li>Electrical Components</li>
+                  <li>Grande Rapids</li>
+                  <li>Linotype Catalogue</li>
+                  <li>Modular Boxes</li>
+                </ul>
+              </div>
+            </td>
+            <td style="width: 30%; vertical-align: top;" class="textTop">
+              <div style="font-size: 21pt;" class="textBoxTwo"> <span class="nokern">WAV.LTe.YTo<br>
+                </span> <span class="kern">WAV.LTe.YTo<br>
+                </span> <span class="nokern">YOTA royo<br>
+                </span> <span class="kern">YOTA royo<br>
+                  <span class="nokern">AWH WOH<br>
+                  </span> <span class="kern">AWH WOH<br>
+                  </span> <span class="nokern">VA YO LTOYA<br>
+                  </span> <span class="kern">VA YO LTOYA<br>
+                  </span> <span class="nokern">Won Wan Ven <br>
+                  </span> <span class="kern">Won Wan Ven <br>
+                  </span> <span class="nokern">office Ruffian<br>
+                  </span> <span class="kern">office Ruffian<br>
+                  </span> <span class="nokern">Tahoe Tcheyo<br>
+                  </span> <span class="kern">Tahoe Tcheyo<br>
+                  </span> </span></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="menu kern" style="margin-bottom: 3px;">
+        <ul>
+          <li><a href="#">HAMBURGER</a></li>
+          <li><a href="#">ADHESION</a></li>
+          <li><a href="#">FIREHOUSE</a></li>
+          <li><a href="#">CHEMICAL</a></li>
+          <li><a href="#">TOKYO</a></li>
+          <li><a href="#">FRANCISCO</a></li>
+          <li><a href="#">BIBLIOTECA</a></li>
+        </ul>
+        <br style="clear: left;">
+      </div>
+      <table style="width: 100%;" border="0">
+        <tbody>
+          <tr>
+            <td style="width: 50%; vertical-align: top;" class="textTop">
+              <div style="font-size: 10.5pt; line-height: 1.6em;" class="textBox">
+                font-size:10.5pt, line-height:1.6em, kern=normal<br>
+                Veil, ruck, tod, vitae arcosolia a a to, ute sod
+                tan, rich, lachrymally foe bitterweed. Creak limen volatile,
+                coenzymatically, a fleeing a postgastric, trichromatist, erses
+                void symptom gel virgos servals. Ixias, venomly, apoharmine,
+                subnodes, quiff haloing, stoure slidometer, eve. If, zig at,
+                syriac, parnas um, heeltree, mediacies. Adcon vin pang
+                impossibilist, bigly pre, cabda. Ovolo hospitalism, quebrith.
+                Jibber, how. Ow commanding, tetrazane, a gaudful myst yowl gnaw,
+                trophesy, petulancy pawn. Me chromaffin, by hazard coloss, to,
+                part helms, cot arms am, compliers, reinvokes. Poldoody
+                hemihydrate pertest, zig overabundant, eye of bad, cane, tale
+                nick halted, rigs wale um, he a pus. Loros we, qty, uh cowy,
+                whaddie grizzlies. Jararacussu, cone, nonappendent, alburnum,
+                scliff, rats, fuelers. Pen monday bowly, colourational, up.
+                Merocelic en gob, apocrustic it, vile impawns, doina, macaw,
+                interbastate dub, sos. Gangrening hypogastria, maws. Lout cotula
+                majestic glottal pacs, heed, parahopeite, sun, to, ya icaco abed
+                molded ale, fore. Malefic decoke fig, a a oh. Solo maw thy, deal
+                sins, pics, duplicia unstreng wardite, overslept luffas boo
+                procreate segou lick chicadee teratology eve, a muled muskit em,
+                fleckless. Canty dickey a a my, a me wino allgood acast
+                nonjurying twiggiest brave, brink discompose chrismatite
+                undertenter cloudcap, asp to, dye in, snowstorms reality aged
+                oaks prissies whinstone fig. Blackheartedly, indirected.
+                Nontrigonometrical rembrandt provicar, pee, maw bean in,
+                hekhsher. Reaffiliate a bepun, rottle roarer an a foot
+                decorable, on celebe, keen, noun ton. Deb dispair fops a
+                pleurocarp, know, sofar poet, colegatee, redtapism unfecund,
+                brio, slum us. Gemmy oleo oak uninventibleness be bolivar, fumet
+                a via a me to. Nob, uh a blam honorifical, poinds. Am, boo
+                seating, kirby wervel, ref, advance lacertoid, ox bin chocho.
+                Ramaism, crumb. Whoop, nonagglomerative, met us, rebait achy,
+                use cabs tayassu. Spectrographs revs, chous, chinkers, dahms hob
+                adjugate, cancrisocial whirs. Repps, winter, strategist, nun,
+                recomember.</div>
+            </td>
+            <td style="width: 20%; vertical-align: top;" class="textTop">
+              <div style="font-size: 9pt;" class="menuVert kern">
+                <ul>
+                  <li>Solo</li>
+                  <li>Ramanism</li>
+                  <li>Spectrographs</li>
+                  <li>Winter</li>
+                  <li>Strategist</li>
+                  <li>Monument Albautem</li>
+                  <li>Farbenfabriken</li>
+                  <li>Licht und Schatten</li>
+                  <li>Biblioteca</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="columnWrapper">
+        <ul class="uppercase">
+          <li>INDISPENSABILI</li>
+          <li><a href="void">Découvrir</a></li>
+        </ul>
+        <ul class="uppercase">
+          <li>UNIVERSUM</li>
+          <li><a title="Inventaires et bases de données" href="void">Fonds
+              d'archives et instruments de recherche</a></li>
+          <li><a href="void" class="nav1Selected">Archives en ligne</a></li>
+        </ul>
+        <ul>
+          <li>EXTREMADURA</li>
+          <li><a title="Archiver dans une commune" href="void">Communes et
+              intercommunalités</a></li>
+          <li><a href="void">Particuliers, associations, entreprises</a></li>
+        </ul>
+        <ul>
+          <li>NORVEGESI</li>
+          <li><a href="void">Publications</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
