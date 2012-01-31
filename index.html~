@@ -4,13 +4,13 @@
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <title>Webfont Test Document</title>
     <style type="text/css">
-    * {
-      -webkit-font-feature-settings: "liga", "dlig";
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  }
+
+* {
+-moz-font-feature-settings: "dlig=1, liga=1";
+  color: red;
+}
 body {
   background-color: #eeeeee;
-  font-family: "specimen";
 }
 @font-face {
   font-family: "specimen";
@@ -18,18 +18,24 @@ body {
   font-weight: normal;
   src: url("Pacifico.ttf");
 }
-.kern {
-  text-rendering: optimizelegibility;
 
+      
+      .specimen {
+        font-family: "specimen"; 
+      }
+      
+
+      
+.kern {
+font-kerning:normal;
+  text-rendering: optimizelegibility;
+color:#333;
 }
 .nokern {
-  color: red;
+
   text-rendering: optimizespeed;
 }
-.autokern {
-  text-rendering: optimizelegibility;
-  color: blue;
-}
+
 .menu {
   width: auto;
   background-color: #333333;
@@ -161,7 +167,7 @@ body {
 }
 </style> </head>
   <body>
-    <div id="mainBox">
+    <div id="mainBox" class="specimen">
       <div class="menu kern" style="margin-bottom: 3px;">
         <ul>
           <li><a href="#">hamburger</a></li>
@@ -192,8 +198,8 @@ body {
         <tbody>
           <tr>
             <td style="width: 50%; vertical-align: top;" class="textTop">
-              <div class="headerOne">Hotel Theorem's Cut Right Through.</div>
-              <div style="font-size: 9pt; line-height: 13.5pt;" class="textBox">font-size:9pt,
+              <div class="kern headerOne">Hotel Theorem's Cut Right Through.</div>
+              <div style="font-size: 9pt; line-height: 13.5pt;" class="kern textBox">font-size:9pt,
                 line-height:13.5pt, kern=normal<br>
                 Veil, ruck, tod, vitae arcosolia a a to, ute sod tan, rich,
                 lachrymally foe bitterweed. Creak limen volatile,
@@ -232,8 +238,8 @@ body {
                 recomember.</div>
             </td>
             <td style="width: 20%; vertical-align: top;" class="textTop">
-              <div style="font-size: 9pt;" class="menuVert kern">
-                <ul>
+              <div style="font-size: 9pt;" class="menuVert">
+                <ul class="kern">
                   <li>Solo Lemonade</li>
                   <li>Ramanism</li>
                   <li>Spectrographs</li>
@@ -266,8 +272,8 @@ body {
                   </span> <span class="kern">VA YO LTOYA<br>
                   </span> <span class="nokern">Won Wan Ven <br>
                   </span> <span class="kern">Won Wan Ven <br>
-                  </span> <span class="nokern">office Ruffian<br>
-                  </span> <span class="kern">office Ruffian<br>
+                  </span> <span class="nokern">office Ruflan<br>
+                  </span> <span class="kern">office Ruflan<br>
                   </span> <span class="nokern">Tahoe Tcheyo<br>
                   </span> <span class="kern">Tahoe Tcheyo<br>
                   </span> </span></div>
@@ -290,11 +296,11 @@ body {
       <table style="width: 100%;" border="0">
         <tbody>
           <tr>
-            <td style="width: 50%; vertical-align: top;" class="textTop">
+            <td style="width: 30%; vertical-align: top;" class="textTop">
               <div style="font-size: 10.5pt; line-height: 1.6em;" class="textBox">
-                font-size:10.5pt, line-height:1.6em, kern=normal<br>
-                Veil, ruck, tod, vitae arcosolia a a to, ute sod
-                tan, rich, lachrymally foe bitterweed. Creak limen volatile,
+                <span style="font-size: 8pt">font-size:10.5pt, line-height:1.6em, kern=normal</span><br>
+                Veil, ruck, tod, vitae arcosolia a a to, ute sod tan, rich,
+                lachrymally foe bitterweed. Creak limen volatile,
                 coenzymatically, a fleeing a postgastric, trichromatist, erses
                 void symptom gel virgos servals. Ixias, venomly, apoharmine,
                 subnodes, quiff haloing, stoure slidometer, eve. If, zig at,
@@ -329,20 +335,19 @@ body {
                 adjugate, cancrisocial whirs. Repps, winter, strategist, nun,
                 recomember.</div>
             </td>
-            <td style="width: 20%; vertical-align: top;" class="textTop">
-              <div style="font-size: 9pt;" class="menuVert kern">
-                <ul>
-                  <li>Solo</li>
-                  <li>Ramanism</li>
-                  <li>Spectrographs</li>
-                  <li>Winter</li>
-                  <li>Strategist</li>
-                  <li>Monument Albautem</li>
-                  <li>Farbenfabriken</li>
-                  <li>Licht und Schatten</li>
-                  <li>Biblioteca</li>
-                </ul>
+            <td style="width: auto; vertical-align: top;" class="textTop">
+              <div style="font-size: 21pt;line-height:2em;margin-top:10px" class="textBox kern">
+                Men's can't Santon Wellingtonia and Golden Tegra Chainset<br>Woven Vancouver £36.99 / Lykke xenophobia<br><span style="color:#aaa">290* Rainmenuosa!</span><hr>
               </div>
+              <div style="font-size: 8pt;line-height:2em;" class="textBox kern">
+                8pt x 2em x kerning<br>Santon Wellingtonia<br>Tegra Chainset<br>Woven Vancouver<br>280* Rainmenuosa!<br>user@network.com<br>
+                Lykke xenophobia
+              </div>
+              <div style="font-size: 8pt;line-height:2em;color:#aaa" class="textBox kern">
+                8pt x 2em x kerning<br>Santon Wellingtonia<br>Tegra Chainset<br>Woven Vancouver<br>280* Rainmenuosa!<br>user@network.com<br>
+                Lykke xenophobia
+              </div>
+               <br>
             </td>
           </tr>
         </tbody>

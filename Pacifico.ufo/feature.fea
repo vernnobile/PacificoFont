@@ -1,0 +1,414 @@
+
+# GSUB 
+
+
+lookup midwordDLIGs {
+  lookupflag 0;
+    sub \i \x  by \i_x;
+  subtable;
+    sub \o \o \s  by \o_o_s;
+  subtable;
+    sub \r \s  by \r_s;
+} midwordDLIGs;
+
+lookup wordsubfor {
+  lookupflag 0;
+    sub \f \o \r  by \for;
+} wordsubfor;
+
+lookup subforNo. {
+  lookupflag 0;
+    sub \N \o \period  by \No;
+} subforNo.;
+
+lookup swashini {
+  lookupflag 0;
+    sub \f by \f.init ;
+    sub \t by \t.init ;
+    sub \p by \p.init ;
+    sub \s by \s.init ;
+} swashini;
+
+lookup swshfina {
+  lookupflag 0;
+    sub \c by \c.fina ;
+    sub \f by \f.fina ;
+    sub \n by \n.fina ;
+    sub \d by \d.fina ;
+    sub \a by \a.fina ;
+    sub \e by \e.fina ;
+    sub \m by \m.fina ;
+    sub \h by \h.fina ;
+    sub \l by \l.fina ;
+    sub \o by \o.fina ;
+    sub \b by \b.fina ;
+    sub \t by \t.fina ;
+    sub \p by \p.fina ;
+    sub \w by \w.fina ;
+    sub \K by \K.alt ;
+    sub \s by \s.fina ;
+    sub \g by \g.fina ;
+    sub \y by \y.fina ;
+    sub \o_s by \os.fina ;
+    sub \ff by \ff.fina ;
+    sub \ff by \ff.fina ;
+} swshfina;
+
+lookup wordchains {
+  lookupflag 0;
+    sub [\s ]' [\exclam \parenright \slash \greater \question \period ]  by [\s.fin2 ];
+  subtable;
+    sub [\space ] [\p ]'lookup swashini  ;
+  subtable;
+    sub [\l ]'lookup swshfina  [\space ] ;
+  subtable;
+    sub [\o ]'lookup swshfina  [\space \exclam \quotedbl \comma ] ;
+  subtable;
+    sub [\m ]'lookup swshfina  [\space ] ;
+  subtable;
+    sub [\o ]' [\s ]' [\space ]  by \os.fina;
+  subtable;
+    sub [\space ] [\f ]'lookup swashini  ;
+  subtable;
+    sub [\space ] [\s ]'lookup swashini  ;
+  subtable;
+    sub [\space ] [\t ]'lookup swashini  ;
+  subtable;
+    sub [\N ]'lookup subforNo.  [\o ] [\period ] [\one \two \three \four \five \six \seven \eight \nine ] ;
+  subtable;
+    sub [\K ]'lookup swshfina  [\i \l ] ;
+  subtable;
+    sub [\t ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\d ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\s ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\n ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\y ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\b ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\p ]'lookup swshfina  [\space \exclam \comma \period ] ;
+  subtable;
+    sub [\h ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\space ] [\a ]' [\n ]' [\d ]' [\space ]  by \and;
+  subtable;
+    sub [\a ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\g ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\space ] [\f ]'lookup wordsubfor  [\o ]'lookup wordsubfor  [\r ]'lookup wordsubfor  [\space ] ;
+  subtable;
+    sub [\e ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\c ]'lookup swshfina  [\space \quotedbl \quoteright \quotedblright ] ;
+  subtable;
+    sub [\f ]'lookup swshfina  [\space ] ;
+} wordchains;
+
+lookup ligaLigatureslookup0 {
+  lookupflag 0;
+    sub \f \l  by \fl;
+    sub \o \x  by \o_x;
+    sub \t \t  by \t_t;
+    sub \i \t \t  by \i_t_t;
+    sub \i \t  by \i_t;
+    sub \P \h  by \Ph;
+    sub \l \k  by \l_k;
+    sub \o \o  by \o_o;
+    sub \l \i  by \l_i;
+    sub \T \h  by \Th;
+    sub \E \l  by \El;
+    sub \l \l  by \l_l;
+    sub \p \t  by \p_t;
+    sub \l \t  by \l_t;
+    sub \c \h  by \ch;
+    sub \c \k  by \ck;
+    sub \f \f  by \ff;
+} ligaLigatureslookup0;
+
+feature dlig {
+
+  script DFLT;
+     language dflt ;
+      lookup midwordDLIGs;
+      lookup wordsubfor;
+      lookup subforNo.;
+      lookup wordchains;
+
+  script latn;
+     language dflt ;
+      lookup midwordDLIGs;
+      lookup wordsubfor;
+      lookup subforNo.;
+      lookup wordchains;
+} dlig;
+
+feature liga {
+
+  script DFLT;
+     language dflt ;
+      lookup ligaLigatureslookup0;
+
+  script latn;
+     language dflt ;
+      lookup ligaLigatureslookup0;
+} liga;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    pos \space \s -100;
+    pos \space \T -120;
+    pos \c \s -32;
+    pos \f \quoteright 400;
+    pos \i \quoteright 190;
+    pos \n \quotesingle -20;
+    pos \P \comma -450;
+    pos \P \g -200;
+    pos \P \r -130;
+    pos \P \period -510;
+    pos \P \m -150;
+    pos \d \quoteright 160;
+    pos \l \quoteright 360;
+    pos \l \asterisk 440;
+    pos \b \s -32;
+    pos \R \a -120;
+    pos \t \a -50;
+    pos \t \e -50;
+    pos \D \comma -200;
+    pos \D \period -170;
+    pos \quotesingle \t -140;
+    pos \quotesingle \s -400;
+    pos \quotesingle \s.fin2 -420;
+    pos \quotesingle \t.fina -120;
+    pos \quotesingle \s.fina -420;
+    pos \p \s -42;
+    pos \W \x -30;
+    pos \W \r -30;
+    pos \F \comma -240;
+    pos \F \g -50;
+    pos \F \r -30;
+    pos \F \period -230;
+    pos \K \v -155;
+    pos \K \w -110;
+    pos \B \o -60;
+    pos \B \e -44;
+    pos \B \a -70;
+    pos \B \o_o -50;
+    pos \B \comma -210;
+    pos \B \period -240;
+    pos \I \quoteright 200;
+    pos \T \o.fina -374;
+    pos \T \comma -390;
+    pos \T \x -220;
+    pos \T \q -290;
+    pos \T \g -200;
+    pos \T \r -325;
+    pos \T \v -200;
+    pos \T \w -165;
+    pos \T \p -250;
+    pos \T \period -340;
+    pos \T \m -310;
+    pos \V \comma -130;
+    pos \V \g -50;
+    pos \V \r -60;
+    pos \V \v -20;
+    pos \V \w -10;
+    pos \V \period -90;
+    pos \V \m -30;
+    pos \quoteleft \x -200;
+    pos \quoteleft \s -200;
+    pos \quoteleft \q -200;
+    pos \quoteleft \p -200;
+    pos \quoteleft \m -200;
+    pos \quoteleft \d -200;
+    pos \quoteleft \a -280;
+    pos \quoteleft \Z -120;
+    pos \quoteleft \W -260;
+    pos \quoteleft \U -260;
+    pos \quoteleft \S -260;
+    pos \quoteleft \R -220;
+    pos \quoteleft \P -200;
+    pos \quoteleft \L -290;
+    pos \quoteleft \J -160;
+    pos \quoteleft \I -230;
+    pos \quoteleft \H -190;
+    pos \quoteleft \G -290;
+    pos \quoteleft \E -269;
+    pos \quoteleft \C -260;
+    pos \quoteleft \A -280;
+    pos \quoteleft \Q -200;
+    pos \quoteleft \O -300;
+    pos \h.fina \quoteright -100;
+    pos \s.fina \space -35;
+    pos \n.fina \T -100;
+    pos \b.fina \quoteright -240;
+    pos \p.fina \exclam -160;
+    pos \p.fina \comma -260;
+    pos \p.fina \period -200;
+    pos \y.fina \quoteright -220;
+    pos \t.fina \quoteright 220;
+    pos \K.alt \i -130;
+  subtable;
+    @kc38_first_0 = [\F ];
+    @kc38_first_1 = [\K ];
+    @kc38_first_2 = [\L ];
+    @kc38_first_3 = [\P ];
+    @kc38_first_4 = [\T ];
+    @kc38_first_5 = [\V ];
+    @kc38_first_6 = [\W ];
+    @kc38_first_7 = [\r ];
+    @kc38_first_8 = [\v ];
+    @kc38_first_9 = [\w ];
+    @kc38_first_10 = [\Y \Yacute \Ydieresis ];
+    @kc38_first_11 = [\space ];
+    @kc38_second_1 = [\a \aring \acircumflex \agrave \aacute \adieresis \atilde ];
+    @kc38_second_2 = [\e \ecircumflex \eacute \edieresis \egrave ];
+    @kc38_second_3 = [\o \ocircumflex \odieresis \ograve \oacute \otilde ];
+    @kc38_second_4 = [\u \ucircumflex \ugrave \uacute \udieresis ];
+    @kc38_second_5 = [\y \yacute \ydieresis ];
+    @kc38_second_6 = [\c \ccedilla ];
+    @kc38_second_7 = [\n \ntilde ];
+    @kc38_second_8 = [\s \scaron ];
+    @kc38_second_9 = [\i \igrave \iacute \icircumflex \idieresis ];
+    @kc38_second_10 = [\A \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring ];
+    @kc38_second_11 = [\z \zcaron ];
+    @kc38_second_12 = [\comma ];
+    @kc38_second_13 = [\g ];
+    @kc38_second_14 = [\m ];
+    @kc38_second_15 = [\period ];
+    @kc38_second_16 = [\r ];
+    @kc38_second_17 = [\v ];
+    @kc38_second_18 = [\w ];
+    @kc38_second_19 = [\x ];
+    @kc38_second_20 = [\s.init ];
+    pos @kc38_first_0 @kc38_second_1 -100;
+    pos @kc38_first_0 @kc38_second_2 -10;
+    pos @kc38_first_0 @kc38_second_3 -95;
+    pos @kc38_first_0 @kc38_second_4 -38;
+    pos @kc38_first_0 @kc38_second_9 -80;
+    pos @kc38_first_0 @kc38_second_20 -512;
+    pos @kc38_first_1 @kc38_second_2 -138;
+    pos @kc38_first_1 @kc38_second_3 -147;
+    pos @kc38_first_1 @kc38_second_4 -146;
+    pos @kc38_first_1 @kc38_second_5 -110;
+    pos @kc38_first_1 @kc38_second_20 94;
+    pos @kc38_first_2 @kc38_second_5 -60;
+    pos @kc38_first_2 @kc38_second_20 -305;
+    pos @kc38_first_3 @kc38_second_1 -209;
+    pos @kc38_first_3 @kc38_second_2 -156;
+    pos @kc38_first_3 @kc38_second_3 -129;
+    pos @kc38_first_3 @kc38_second_4 -110;
+    pos @kc38_first_3 @kc38_second_6 -210;
+    pos @kc38_first_3 @kc38_second_7 -155;
+    pos @kc38_first_3 @kc38_second_8 -200;
+    pos @kc38_first_3 @kc38_second_20 -589;
+    pos @kc38_first_4 @kc38_second_1 -495;
+    pos @kc38_first_4 @kc38_second_2 -374;
+    pos @kc38_first_4 @kc38_second_3 -374;
+    pos @kc38_first_4 @kc38_second_4 -425;
+    pos @kc38_first_4 @kc38_second_5 -490;
+    pos @kc38_first_4 @kc38_second_6 -375;
+    pos @kc38_first_4 @kc38_second_7 -260;
+    pos @kc38_first_4 @kc38_second_8 -310;
+    pos @kc38_first_4 @kc38_second_9 -388;
+    pos @kc38_first_4 @kc38_second_20 -840;
+    pos @kc38_first_5 @kc38_second_1 -120;
+    pos @kc38_first_5 @kc38_second_2 -70;
+    pos @kc38_first_5 @kc38_second_3 -50;
+    pos @kc38_first_5 @kc38_second_4 -70;
+    pos @kc38_first_5 @kc38_second_5 -20;
+    pos @kc38_first_5 @kc38_second_6 -60;
+    pos @kc38_first_5 @kc38_second_7 -50;
+    pos @kc38_first_5 @kc38_second_8 -50;
+    pos @kc38_first_5 @kc38_second_10 -20;
+    pos @kc38_first_5 @kc38_second_11 -50;
+    pos @kc38_first_5 @kc38_second_20 317;
+    pos @kc38_first_6 @kc38_second_1 -35;
+    pos @kc38_first_6 @kc38_second_2 -45;
+    pos @kc38_first_6 @kc38_second_3 -15;
+    pos @kc38_first_6 @kc38_second_4 -13;
+    pos @kc38_first_6 @kc38_second_7 -20;
+    pos @kc38_first_6 @kc38_second_8 -30;
+    pos @kc38_first_6 @kc38_second_10 -30;
+    pos @kc38_first_6 @kc38_second_20 340;
+    pos @kc38_first_7 @kc38_second_1 -30;
+    pos @kc38_first_7 @kc38_second_8 -25;
+    pos @kc38_first_7 @kc38_second_20 357;
+    pos @kc38_first_8 @kc38_second_1 -17;
+    pos @kc38_first_8 @kc38_second_2 -10;
+    pos @kc38_first_8 @kc38_second_3 -8;
+    pos @kc38_first_8 @kc38_second_20 402;
+    pos @kc38_first_9 @kc38_second_1 -27;
+    pos @kc38_first_9 @kc38_second_2 -8;
+    pos @kc38_first_9 @kc38_second_3 -10;
+    pos @kc38_first_9 @kc38_second_20 401;
+    pos @kc38_first_10 @kc38_second_1 -178;
+    pos @kc38_first_10 @kc38_second_2 -183;
+    pos @kc38_first_10 @kc38_second_3 -142;
+    pos @kc38_first_10 @kc38_second_4 -60;
+    pos @kc38_first_10 @kc38_second_5 -40;
+    pos @kc38_first_10 @kc38_second_6 -104;
+    pos @kc38_first_10 @kc38_second_7 -70;
+    pos @kc38_first_10 @kc38_second_8 -148;
+    pos @kc38_first_10 @kc38_second_12 -340;
+    pos @kc38_first_10 @kc38_second_13 -110;
+    pos @kc38_first_10 @kc38_second_14 -90;
+    pos @kc38_first_10 @kc38_second_15 -270;
+    pos @kc38_first_10 @kc38_second_16 -86;
+    pos @kc38_first_10 @kc38_second_17 -51;
+    pos @kc38_first_10 @kc38_second_18 -60;
+    pos @kc38_first_10 @kc38_second_19 -190;
+    pos @kc38_first_10 @kc38_second_20 -413;
+    pos @kc38_first_11 @kc38_second_20 -103;
+} kernHorizontalKerninglookup0;
+
+feature kern {
+
+  script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.null \nonmarkingreturn \space \c \f \i \n \P \d \a \e \m \h \u \l \o \k \b 
+	\N \M \R \t \D \quotesingle \E \O \period \p \U \Q \W \S \w \v \r \F \at \J \K \acute \A \B \C 
+	\parenleft \parenright \G \H \hyphen \s \I \Z \z \g \y \q \j \eight \nine \question \six 
+	\eth \T \L \x \exclam \dollar \slash \bracketleft \zero \OE \oe \fraction 
+	\numbersign \percent \bar \quotedbl \X \Euro \equal \ampersand \colon \semicolon 
+	\comma \bullet \ring \aring \plus \braceleft \asterisk \dagger \daggerdbl 
+	\perthousand \one \dotlessi \backslash \quotedblbase \ellipsis \braceright 
+	\bracketright \circumflex \acircumflex \ecircumflex \ocircumflex \ucircumflex 
+	\caron \cedilla \fi \oslash \Oslash \grave \thorn \periodcentered \eacute 
+	\ccedilla \dieresis \odieresis \V \less \greater \guilsinglleft \guilsinglright 
+	\asciicircum \cent \yen \Y \underscore \copyright \registered \quotedblright 
+	\quotedblleft \quoteleft \quoteright \mu \degree \ugrave \uacute \udieresis 
+	\yacute \ydieresis \ograve \oacute \edieresis \igrave \iacute \icircumflex 
+	\idieresis \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \guillemotleft 
+	\guillemotright \sterling \trademark \brokenbar \agrave \aacute \adieresis 
+	\egrave \germandbls \asciitilde \ntilde \tilde \otilde \Agrave \Aacute 
+	\Acircumflex \Atilde \Adieresis \Aring \Ccedilla \Egrave \Eacute \Ecircumflex 
+	\Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Ograve \Oacute 
+	\Ocircumflex \Otilde \Odieresis \Ydieresis \exclamdown \Scaron \section 
+	\currency \paragraph \atilde \AE \scaron \ae \quotesinglbase \plusminus 
+	\logicalnot \minus \hungarumlaut \multiply \florin \divide \three \ordfeminine 
+	\ordmasculine \Lslash \lslash \Zcaron \zcaron \ogonek \dotaccent \onesuperior 
+	\onequarter \onehalf \threequarters \threesuperior \questiondown \Eth \two 
+	\seven \Thorn \five \four \endash \emdash \twosuperior \foursuperior \a.fina 
+	\h.fina \o.fina \s.fina \n.fina \b.fina \g.fina \p.fina \NameMe.266 \w.fina 
+	\l_k.space \y.fina \o_s \ff.fina \e.fina \d.fina \t.fina \c.fina \K.alt \s.init 
+	\s.fin2 \t.init \f.init \NameMe.276 \m.fina \l.fina \p.init \f.fina ];
+@GDEF_Ligature = [\fl \o_x \t_t \i_t_t \i_t \Ph \l_k \o_o \l_i \Th \El \l_l \p_t \l_t \and 
+	\for \ch \ck \ff \No \os.fina \i_x \o_o_s \r_s ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature,  ,  ;
+
+} GDEF;
+
