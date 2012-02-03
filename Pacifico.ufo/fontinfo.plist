@@ -30,8 +30,10 @@
 	<string>vernon adams</string>
 	<key>openTypeNameManufacturer</key>
 	<string>vernon adams</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.000</string>
+	<string>Version 1.002</string>
 	<key>openTypeNameUniqueID</key>
 	<string>vernonadams: Pacifico: 2011</string>
 	<key>openTypeNameDescription</key>
