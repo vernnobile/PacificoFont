@@ -1,0 +1,40 @@
+FONTLOG for Pacifico fonts
+
+This file provides detailed information on the Pacifico 
+Font Software.
+
+This information should be distributed along with the 
+Pacifico fonts and any derivative works. 
+
+
+Basic Font Information
+
+‘Pacifico’ is a design derived from advertisement lettering from the 1940's. The lettering was used to inspire and develop Pacifico, which now supports most European Latin languages and OpenType Ligatures and extra features.
+
+This release supports the following 
+Unicode ranges: Latin, Latin-Extended
+
+There are 3 Source files:
+
+1. src/Pacifico.sfd Original Source Files in postscript curves.
+2. src/Pacifico.ufo Source Files in UFO format.
+3. src/Pacifico.otf OpenType font format.
+
+To contribute to the project contact Vernon Adams
+at vern@newtypography.co.uk and use the gitHub repository at https://github.com/vernnobile/PacificoFont
+
+ChangeLog
+
+27 March 2012 (Vernon Adams) Pacifico v2.00
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Vernon Adams
+E: vern@newtypography.co.uk
+W: code.newtypography.co.uk
+D: Original Type Designer
