@@ -13,7 +13,7 @@
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>xHeight</key>
-	<integer>530</integer>
+	<integer>953</integer>
 	<key>capHeight</key>
 	<integer>1730</integer>
 	<key>ascender</key>
@@ -61,25 +61,6 @@
 	<string>newt</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
-		<integer>0</integer>
-		<integer>0</integer>
-	</array>
-	<key>openTypeOS2Type</key>
-	<array>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
 		<integer>0</integer>
 		<integer>0</integer>
 	</array>

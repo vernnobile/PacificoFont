@@ -50,8 +50,8 @@ lookup swshfina {
     sub \g by \g.fina ;
     sub \y by \y.fina ;
     sub \o_s by \os.fina ;
-    sub \ff by \ff.fina ;
-    sub \ff by \ff.fina ;
+    sub \uniFB00 by \uniFB00.fina ;
+    sub \uniFB00 by \uniFB00.fina ;
 } swshfina;
 
 lookup wordchains {
@@ -111,7 +111,7 @@ lookup wordchains {
 
 lookup ligaLigatureslookup0 {
   lookupflag 0;
-    sub \f \l  by \fl;
+    sub \f \l  by \uniFB02;
     sub \o \x  by \o_x;
     sub \t \t  by \t_t;
     sub \i \t \t  by \i_t_t;
@@ -127,7 +127,7 @@ lookup ligaLigatureslookup0 {
     sub \l \t  by \l_t;
     sub \c \h  by \ch;
     sub \c \k  by \ck;
-    sub \f \f  by \ff;
+    sub \f \f  by \uniFB00;
 } ligaLigatureslookup0;
 
 feature dlig {
@@ -381,38 +381,38 @@ feature kern {
 } kern;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\.null \nonmarkingreturn \space \c \f \i \n \P \d \a \e \m \h \u \l \o \k \b 
-	\N \M \R \t \D \quotesingle \E \O \period \p \U \Q \W \S \w \v \r \F \at \J \K \acute \A \B \C 
-	\parenleft \parenright \G \H \hyphen \s \I \Z \z \g \y \q \j \eight \nine \question \six 
-	\eth \T \L \x \exclam \dollar \slash \bracketleft \zero \OE \oe \fraction 
-	\numbersign \percent \bar \quotedbl \X \Euro \equal \ampersand \colon \semicolon 
-	\comma \bullet \ring \aring \plus \braceleft \asterisk \dagger \daggerdbl 
-	\perthousand \one \dotlessi \backslash \quotedblbase \ellipsis \braceright 
-	\bracketright \circumflex \acircumflex \ecircumflex \ocircumflex \ucircumflex 
-	\caron \cedilla \fi \oslash \Oslash \grave \thorn \periodcentered \eacute 
-	\ccedilla \dieresis \odieresis \V \less \greater \guilsinglleft \guilsinglright 
-	\asciicircum \cent \yen \Y \underscore \copyright \registered \quotedblright 
-	\quotedblleft \quoteleft \quoteright \mu \degree \ugrave \uacute \udieresis 
-	\yacute \ydieresis \ograve \oacute \edieresis \igrave \iacute \icircumflex 
-	\idieresis \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \guillemotleft 
-	\guillemotright \sterling \trademark \brokenbar \agrave \aacute \adieresis 
-	\egrave \germandbls \asciitilde \ntilde \tilde \otilde \Agrave \Aacute 
-	\Acircumflex \Atilde \Adieresis \Aring \Ccedilla \Egrave \Eacute \Ecircumflex 
-	\Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Ograve \Oacute 
-	\Ocircumflex \Otilde \Odieresis \Ydieresis \exclamdown \Scaron \section 
-	\currency \paragraph \atilde \AE \scaron \ae \quotesinglbase \plusminus 
-	\logicalnot \minus \hungarumlaut \multiply \florin \divide \three \ordfeminine 
-	\ordmasculine \Lslash \lslash \Zcaron \zcaron \ogonek \dotaccent \onesuperior 
-	\onequarter \onehalf \threequarters \threesuperior \questiondown \Eth \two 
-	\seven \Thorn \five \four \endash \emdash \twosuperior \foursuperior \a.fina 
-	\h.fina \o.fina \s.fina \n.fina \b.fina \g.fina \p.fina \NameMe.266 \w.fina 
-	\l_k.space \y.fina \o_s \ff.fina \e.fina \d.fina \t.fina \c.fina \K.alt \s.init 
-	\s.fin2 \t.init \f.init \NameMe.276 \m.fina \l.fina \p.init \f.fina ];
-@GDEF_Ligature = [\fl \o_x \t_t \i_t_t \i_t \Ph \l_k \o_o \l_i \Th \El \l_l \p_t \l_t \and 
-	\for \ch \ck \ff \No \os.fina \i_x \o_o_s \r_s ];
+@GDEF_Simple = [\.null \uni000D \space \c \f \i \n \P \d \a \e \m \h \u \l \o \k \b \N \M \R \t \D 
+	\quotesingle \E \O \period \p \U \Q \W \S \w \v \r \F \at \J \K \acute \A \B \C \parenleft 
+	\parenright \G \H \hyphen \s \I \Z \z \g \y \q \j \eight \nine \question \six \eth \T \L \x 
+	\exclam \dollar \slash \bracketleft \zero \OE \oe \fraction \numbersign \percent 
+	\bar \quotedbl \X \Euro \equal \ampersand \colon \semicolon \comma \bullet \ring 
+	\aring \plus \braceleft \asterisk \dagger \daggerdbl \perthousand \one \dotlessi 
+	\backslash \quotedblbase \ellipsis \braceright \bracketright \circumflex 
+	\acircumflex \ecircumflex \ocircumflex \ucircumflex \caron \cedilla \uniFB01 
+	\oslash \Oslash \grave \thorn \periodcentered \eacute \ccedilla \dieresis 
+	\odieresis \V \less \greater \guilsinglleft \guilsinglright \asciicircum \cent 
+	\yen \Y \underscore \copyright \registered \quotedblright \quotedblleft 
+	\quoteleft \quoteright \uni00B5 \degree \ugrave \uacute \udieresis \yacute 
+	\ydieresis \ograve \oacute \edieresis \igrave \iacute \icircumflex \idieresis 
+	\Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \guillemotleft \guillemotright 
+	\sterling \trademark \brokenbar \agrave \aacute \adieresis \egrave \germandbls 
+	\asciitilde \ntilde \tilde \otilde \Agrave \Aacute \Acircumflex \Atilde 
+	\Adieresis \Aring \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave 
+	\Iacute \Icircumflex \Idieresis \Ntilde \Ograve \Oacute \Ocircumflex \Otilde 
+	\Odieresis \Ydieresis \exclamdown \Scaron \section \currency \paragraph \atilde 
+	\AE \scaron \ae \quotesinglbase \plusminus \logicalnot \minus \hungarumlaut 
+	\multiply \florin \divide \three \ordfeminine \ordmasculine \Lslash \lslash 
+	\Zcaron \zcaron \ogonek \dotaccent \uni00B9 \onequarter \onehalf \threequarters 
+	\uni00B3 \questiondown \Eth \two \seven \Thorn \five \four \endash \emdash 
+	\uni00B2 \uni2074 \a.fina \h.fina \o.fina \s.fina \n.fina \b.fina \g.fina \p.fina 
+	\NameMe.266 \w.fina \l_k.space \y.fina \o_s \uniFB00.fina \e.fina \d.fina 
+	\t.fina \c.fina \K.alt \s.init \s.fin2 \t.init \f.init \NameMe.276 \m.fina 
+	\l.fina \p.init \f.fina ];
+@GDEF_Ligature = [\uniFB02 \o_x \t_t \i_t_t \i_t \Ph \l_k \o_o \l_i \Th \El \l_l \p_t 
+	\l_t \and \for \ch \ck \uniFB00 \No \os.fina \i_x \o_o_s \r_s ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, @GDEF_Ligature,  ,  ;
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
 
 } GDEF;
 

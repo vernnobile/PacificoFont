@@ -5,17 +5,17 @@
   <outline>
     <contour>
       <point x="335" y="1159" type="line" smooth="yes"/>
-      <point x="261.637" y="1159"/>
-      <point x="290.301" y="1024.08"/>
-      <point x="213.523" y="1024.08" type="curve" smooth="yes"/>
-      <point x="171.274" y="1024.08"/>
-      <point x="146" y="1082.76"/>
+      <point x="262" y="1159"/>
+      <point x="291" y="1024"/>
+      <point x="214" y="1024" type="curve" smooth="yes"/>
+      <point x="172" y="1024"/>
+      <point x="146" y="1083"/>
       <point x="146" y="1155" type="curve" smooth="yes"/>
-      <point x="146" y="1273.3"/>
-      <point x="191.179" y="1379"/>
+      <point x="146" y="1273"/>
+      <point x="191" y="1379"/>
       <point x="272" y="1379" type="curve" smooth="yes"/>
-      <point x="464.368" y="1379"/>
-      <point x="573.427" y="1333"/>
+      <point x="464" y="1379"/>
+      <point x="573" y="1333"/>
       <point x="787" y="1333" type="curve" smooth="yes"/>
       <point x="818" y="1333" type="line" smooth="yes"/>
       <point x="870" y="1333"/>
@@ -24,13 +24,13 @@
       <point x="994" y="1343"/>
       <point x="1010" y="1304"/>
       <point x="1010" y="1252" type="curve" smooth="yes"/>
-      <point x="1010" y="1181.48"/>
-      <point x="955.008" y="1159.05"/>
+      <point x="1010" y="1181"/>
+      <point x="955" y="1159"/>
       <point x="913" y="1131" type="curve"/>
-      <point x="704.897" y="799.953"/>
-      <point x="538.28" y="445.854"/>
+      <point x="705" y="800"/>
+      <point x="538" y="446"/>
       <point x="400" y="26" type="curve" smooth="yes"/>
-      <point x="379.206" y="-37.1372"/>
+      <point x="379" y="-37"/>
       <point x="311" y="-56"/>
       <point x="231" y="-56" type="curve" smooth="yes"/>
       <point x="168" y="-56"/>
@@ -40,8 +40,8 @@
       <point x="107" y="191"/>
       <point x="192" y="336"/>
       <point x="248" y="439" type="curve"/>
-      <point x="369.117" y="688.16"/>
-      <point x="516.422" y="926.328"/>
+      <point x="369" y="688"/>
+      <point x="516" y="926"/>
       <point x="667" y="1159" type="curve"/>
     </contour>
   </outline>
