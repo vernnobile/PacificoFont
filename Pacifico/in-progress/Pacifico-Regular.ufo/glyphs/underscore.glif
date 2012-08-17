@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore" format="1">
+  <advance width="1248"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="128" y="0" type="line" smooth="yes"/>
+      <point x="55" y="0"/>
+      <point x="-6" y="34"/>
+      <point x="-6" y="108" type="curve" smooth="yes"/>
+      <point x="-6" y="218"/>
+      <point x="124" y="224"/>
+      <point x="236" y="224" type="curve" smooth="yes"/>
+      <point x="496" y="224" type="line" smooth="yes"/>
+      <point x="609" y="224"/>
+      <point x="737" y="225"/>
+      <point x="853" y="225" type="curve" smooth="yes"/>
+      <point x="1184" y="225" type="line" smooth="yes"/>
+      <point x="1233" y="225"/>
+      <point x="1266" y="210"/>
+      <point x="1266" y="163" type="curve" smooth="yes"/>
+      <point x="1266" y="33"/>
+      <point x="1156" y="0"/>
+      <point x="1020" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>225</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
