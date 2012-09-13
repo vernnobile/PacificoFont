@@ -11,7 +11,7 @@
 <data name="previewTypeSize" value="Auto" />
 <data name="previewtext" value="rotan" />
 <data name="verticalPreviewAxis" value="None" />
-<data name="projectionAngle" value="2.68561525928" />
+<data name="projectionAngle" value="2.68561525327" />
 <!-- axis definitions -->
 <axis maximum="1000" minimum="0" name="pacifico-reg-bold" shortname="xx" />
 
