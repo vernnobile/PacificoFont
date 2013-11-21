@@ -1,0 +1,145 @@
+
+languagesystem latn dflt;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinloo {
+  lookupflag 0;
+    pos \B \period -240;
+    pos \B \o_o -50;
+    pos \B \o -60;
+    pos \B \e -44;
+    pos \B \comma -210;
+    pos \B \a -70;
+    pos \D \period -170;
+    pos \D \comma -200;
+    pos \F \r -30;
+    pos \F \period -230;
+    pos \F \g -50;
+    pos \F \comma -240;
+    pos \I \quoteright 200;
+    pos \K \w -110;
+    pos \K \v -155;
+    pos \K.alt \i -130;
+    pos \P \r -130;
+    pos \P \period -510;
+    pos \P \m -150;
+    pos \P \g -200;
+    pos \P \comma -450;
+    pos \R \a -120;
+    pos \T \x -220;
+    pos \T \w -165;
+    pos \T \v -200;
+    pos \T \r -325;
+    pos \T \q -290;
+    pos \T \period -340;
+    pos \T \p -250;
+    pos \T \o.fina -374;
+    pos \T \m -310;
+    pos \T \g -200;
+    pos \T \comma -390;
+    pos \V \w -10;
+    pos \V \v -20;
+    pos \V \r -60;
+    pos \V \period -90;
+    pos \V \m -30;
+    pos \V \g -50;
+    pos \V \comma -130;
+    pos \W \x -30;
+    pos \W \r -30;
+    pos \b \s -32;
+    pos \b.fina \quoteright -240;
+    pos \c \s -32;
+    pos \d \quoteright 160;
+    pos \f \quoteright 400;
+    pos \h.fina \quoteright -100;
+    pos \i \quoteright 190;
+    pos \l \quoteright 360;
+    pos \l \asterisk 440;
+    pos \n \quotesingle -20;
+    pos \n.fina \T -100;
+    pos \p \s -42;
+    pos \p.fina \period -200;
+    pos \p.fina \exclam -160;
+    pos \p.fina \comma -260;
+    pos \quoteleft \x -200;
+    pos \quoteleft \s -200;
+    pos \quoteleft \q -200;
+    pos \quoteleft \p -200;
+    pos \quoteleft \m -200;
+    pos \quoteleft \d -200;
+    pos \quoteleft \a -280;
+    pos \quoteleft \Z -120;
+    pos \quoteleft \W -260;
+    pos \quoteleft \U -260;
+    pos \quoteleft \S -260;
+    pos \quoteleft \R -220;
+    pos \quoteleft \Q -200;
+    pos \quoteleft \P -200;
+    pos \quoteleft \O -300;
+    pos \quoteleft \L -290;
+    pos \quoteleft \J -160;
+    pos \quoteleft \I -230;
+    pos \quoteleft \H -190;
+    pos \quoteleft \G -290;
+    pos \quoteleft \E -269;
+    pos \quoteleft \C -260;
+    pos \quoteleft \A -280;
+    pos \quotesingle \t.fina -120;
+    pos \quotesingle \t -140;
+    pos \quotesingle \s.fina -420;
+    pos \quotesingle \s.fin2 -420;
+    pos \quotesingle \s -400;
+    pos \s.fina \space -35;
+    pos \space \s -100;
+    pos \space \T -120;
+    pos \t \e -50;
+    pos \t \a -50;
+    pos \t.fina \quoteright 220;
+    pos \y.fina \quoteright -220;
+} kernHorizontalKerninginLatinloo;
+
+feature kern {
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinloo;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.null \A \AE \Aacute \Acircumflex \Adieresis \Agrave \Aring \Atilde 
+	\B \C \Ccedilla \D \E \Eacute \Ecircumflex \Edieresis \Egrave \El \Eth \Euro \F \G \H 
+	\I \Iacute \Icircumflex \Idieresis \Igrave \J \K \K.alt \L \Lslash \M \N \NameMe.266 
+	\NameMe.276 \No \Ntilde \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Oslash 
+	\Otilde \P \Ph \Q \R \S \Scaron \T \Th \Thorn \U \Uacute \Ucircumflex \Udieresis 
+	\Ugrave \V \W \X \Y \Yacute \Ydieresis \Z \Zcaron \a \a.fina \aacute \acircumflex 
+	\acute \adieresis \ae \agrave \ampersand \and \aring \asciicircum \asciitilde 
+	\asterisk \at \atilde \b \b.fina \backslash \bar \braceleft \braceright 
+	\bracketleft \bracketright \brokenbar \bullet \c \c.fina \caron \ccedilla 
+	\cedilla \cent \ch \circumflex \ck \colon \comma \copyright \currency \d \d.fina 
+	\dagger \daggerdbl \degree \dieresis \divide \dollar \dotaccent \dotlessi \e 
+	\e.fina \eacute \ecircumflex \edieresis \egrave \eight \ellipsis \emdash \endash 
+	\equal \eth \exclam \exclamdown \f \f.fina \f.init \five \florin \for \four 
+	\fraction \g \g.fina \germandbls \grave \greater \guillemotleft \guillemotright 
+	\guilsinglleft \guilsinglright \h \h.fina \hungarumlaut \hyphen \i \i_t \i_t_t 
+	\i_x \iacute \icircumflex \idieresis \igrave \j \k \l \l.fina \l_i \l_k \l_k.space 
+	\l_l \l_t \less \logicalnot \lslash \m \m.fina \minus \multiply \n \n.fina \nine 
+	\ntilde \numbersign \o \o.fina \o_o \o_o_s \o_s \o_x \oacute \ocircumflex 
+	\odieresis \oe \ogonek \ograve \one \onehalf \onequarter \ordfeminine 
+	\ordmasculine \os.fina \oslash \otilde \p \p.fina \p.init \p_t \paragraph 
+	\parenleft \parenright \percent \period \periodcentered \perthousand \plus 
+	\plusminus \q \question \questiondown \quotedbl \quotedblbase \quotedblleft 
+	\quotedblright \quoteleft \quoteright \quotesinglbase \quotesingle \r \r_s 
+	\registered \ring \s \s.fin2 \s.fina \s.init \scaron \section \semicolon \seven 
+	\six \slash \space \sterling \t \t.fina \t.init \t_t \thorn \three \threequarters 
+	\tilde \trademark \two \u \uacute \ucircumflex \udieresis \ugrave \underscore 
+	\uni000D \uni00B2 \uni00B3 \uni00B5 \uni00B9 \uni2074 \uniFB00 \uniFB00.fina 
+	\uniFB01 \uniFB02 \v \w \w.fina \x \y \y.fina \yacute \ydieresis \yen \z \zcaron 
+	\zero ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
