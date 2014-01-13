@@ -3,37 +3,43 @@
   <advance width="947"/>
   <unicode hex="00F1"/>
   <outline>
-    <component base="n" xOffset="14"/>
+    <component base="n"/>
     <component base="tilde" xOffset="124"/>
   </outline>
   <lib>
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-	<key>hhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>	    <integer>-12</integer>
-	    <key>width</key>	    <integer>199</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>940</integer>
-	    <key>width</key>	    <integer>20</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>1055</integer>
-	    <key>width</key>	    <integer>368</integer>
-	  </dict>
-	</array>
-	<key>vhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>
-	    <integer>606</integer>
-	    <key>width</key>
-	    <integer>201</integer>
-	  </dict>
-	</array>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-12</integer>
+            <key>width</key>
+            <integer>199</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>940</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1055</integer>
+            <key>width</key>
+            <integer>368</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>606</integer>
+            <key>width</key>
+            <integer>201</integer>
+          </dict>
+        </array>
       </dict>
     </dict>
   </lib>

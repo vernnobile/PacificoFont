@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NameMe.266" format="1">
+  <advance width="1433"/>
+  <outline>
+    <contour>
+      <point x="391" y="1084" type="curve" smooth="yes"/>
+      <point x="469" y="1146"/>
+      <point x="753" y="1568"/>
+      <point x="599" y="1568" type="curve" smooth="yes"/>
+      <point x="480" y="1568"/>
+      <point x="402" y="1129"/>
+    </contour>
+    <contour>
+      <point x="454" y="-5" type="curve" smooth="yes"/>
+      <point x="809" y="-10"/>
+      <point x="1050" y="280"/>
+      <point x="1103" y="331" type="curve" smooth="yes"/>
+      <point x="1156" y="382"/>
+      <point x="1159" y="435"/>
+      <point x="1088" y="510" type="curve" smooth="yes"/>
+      <point x="1017" y="585"/>
+      <point x="880" y="201"/>
+      <point x="509" y="184" type="curve" smooth="yes"/>
+      <point x="229" y="171"/>
+      <point x="353" y="889"/>
+      <point x="370" y="899" type="curve" smooth="yes"/>
+      <point x="779" y="1141"/>
+      <point x="997" y="1793"/>
+      <point x="617" y="1793" type="curve" smooth="yes"/>
+      <point x="237" y="1793"/>
+      <point x="137" y="577"/>
+      <point x="131" y="510" type="curve" smooth="yes"/>
+      <point x="125" y="443"/>
+      <point x="99" y="0"/>
+    </contour>
+    <contour>
+      <point x="340" y="901" type="curve" smooth="yes"/>
+      <point x="846" y="864"/>
+      <point x="945" y="896"/>
+      <point x="966" y="967" type="curve" smooth="yes"/>
+      <point x="987" y="1038"/>
+      <point x="930" y="1059"/>
+      <point x="914" y="1059" type="curve" smooth="yes"/>
+      <point x="898" y="1059"/>
+      <point x="76" y="1100"/>
+      <point x="10" y="1106" type="curve" smooth="yes"/>
+      <point x="-56" y="1112"/>
+      <point x="-98" y="1066"/>
+      <point x="-98" y="1026" type="curve" smooth="yes"/>
+      <point x="-98" y="968"/>
+      <point x="15" y="925"/>
+    </contour>
+  </outline>
+</glyph>

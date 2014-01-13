@@ -98,58 +98,66 @@
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-	<key>hhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>	    <integer>4</integer>
-	    <key>width</key>	    <integer>206</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>598</integer>
-	    <key>width</key>	    <integer>180</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>1523</integer>
-	    <key>width</key>	    <integer>205</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>1531</integer>
-	    <key>width</key>	    <integer>212</integer>
-	  </dict>
-	</array>
-	<key>vhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>
-	    <integer>257</integer>
-	    <key>width</key>
-	    <integer>239</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>496</integer>
-	    <key>width</key>
-	    <integer>271</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>754</integer>
-	    <key>width</key>
-	    <integer>208</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>1297</integer>
-	    <key>width</key>
-	    <integer>240</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>1457</integer>
-	    <key>width</key>
-	    <integer>240</integer>
-	  </dict>
-	</array>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>4</integer>
+            <key>width</key>
+            <integer>206</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>598</integer>
+            <key>width</key>
+            <integer>180</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1523</integer>
+            <key>width</key>
+            <integer>205</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1531</integer>
+            <key>width</key>
+            <integer>212</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>257</integer>
+            <key>width</key>
+            <integer>239</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>496</integer>
+            <key>width</key>
+            <integer>271</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>754</integer>
+            <key>width</key>
+            <integer>208</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1297</integer>
+            <key>width</key>
+            <integer>240</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1457</integer>
+            <key>width</key>
+            <integer>240</integer>
+          </dict>
+        </array>
       </dict>
     </dict>
   </lib>

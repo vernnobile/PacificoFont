@@ -34,13 +34,15 @@
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-	<key>hhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>	    <integer>-33</integer>
-	    <key>width</key>	    <integer>21</integer>
-	  </dict>
-	</array>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-33</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
       </dict>
     </dict>
   </lib>

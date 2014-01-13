@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<designspace>
+<!-- Superpolator Designspace Object -->
+
+<!-- info -->
+<version format="131028_2106_developer_" superpolator="1" />
+<!-- application data -->
+<data name="zPreviewAxis" value="None" />
+<data name="horizontalPreviewAxis" value="pacifico-reg-bold" />
+<data name="preferLeftToRight" value="1" />
+<data name="previewTypeSize" value="64.0" />
+<data name="previewtext" value="Popularisation" />
+<data name="verticalPreviewAxis" value="None" />
+<data name="projectionAngle" value="2.68561525327" />
+<!-- axis definitions -->
+<axis maximum="1000" minimum="0" name="pacifico-reg-bold" shortname="xx" />
+
+<!-- master definitions -->
+<master filename="Pacifico-Light.ufo">
+<location>
+<dimension name="pacifico-reg-bold" xvalue="0" />
+</location>
+<!-- color for Pacifico-Light.ufo -->
+<color a="1.000000" b="0.500000" g="1.000000" r="1.000000" />
+</master>
+<master filename="Pacifico-Regular.ufo">
+<location>
+<dimension name="pacifico-reg-bold" xvalue="1000" />
+</location>
+<!-- color for Pacifico-Regular.ufo -->
+<color a="1.000000" b="1.000000" g="0.000000" r="0.500000" />
+</master>
+
+<!-- instance definitions -->
+<instance familyname="Pacifico" sequence="" stylename="xx0">
+<location>
+<dimension name="pacifico-reg-bold" xvalue="0" />
+</location>
+</instance>
+<instance familyname="Pacifico" sequence="" stylename="xx0Copy">
+<location>
+<dimension name="pacifico-reg-bold" xvalue="300" />
+</location>
+</instance>
+<instance familyname="Pacifico" sequence="" stylename="xx0Copy">
+<location>
+<dimension name="pacifico-reg-bold" xvalue="800" />
+</location>
+</instance>
+<instance familyname="Pacifico" sequence="" stylename="xx0CopyCopy">
+<location>
+<dimension name="pacifico-reg-bold" xvalue="1200" yvalue="1100" />
+</location>
+</instance>
+<instance familyname="Pacifico" sequence="" stylename="xx0CopyCopyCopy">
+<location>
+<dimension name="pacifico-reg-bold" xvalue="1500" yvalue="1100" />
+</location>
+</instance>
+</designspace>

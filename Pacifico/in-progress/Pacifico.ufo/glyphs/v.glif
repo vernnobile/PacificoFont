@@ -65,32 +65,36 @@
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-	<key>hhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>	    <integer>211</integer>
-	    <key>width</key>	    <integer>154</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>942</integer>
-	    <key>width</key>	    <integer>20</integer>
-	  </dict>
-	</array>
-	<key>vhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>
-	    <integer>107</integer>
-	    <key>width</key>
-	    <integer>267</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>107</integer>
-	    <key>width</key>
-	    <integer>228</integer>
-	  </dict>
-	</array>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>211</integer>
+            <key>width</key>
+            <integer>154</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>942</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>107</integer>
+            <key>width</key>
+            <integer>267</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>107</integer>
+            <key>width</key>
+            <integer>228</integer>
+          </dict>
+        </array>
       </dict>
     </dict>
   </lib>

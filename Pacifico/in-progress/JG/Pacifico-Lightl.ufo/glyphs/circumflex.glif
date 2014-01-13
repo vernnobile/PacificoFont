@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex" format="1">
+  <advance width="864"/>
+  <unicode hex="02C6"/>
+  <outline>
+    <contour>
+      <point x="635" y="1050" type="curve"/>
+      <point x="697.128" y="1050"/>
+      <point x="732" y="1082.98"/>
+      <point x="732" y="1133" type="curve"/>
+      <point x="732" y="1245.07"/>
+      <point x="696.256" y="1332.02"/>
+      <point x="672.696" y="1439.57" type="curve"/>
+      <point x="647.472" y="1554.6"/>
+      <point x="631.089" y="1666"/>
+      <point x="537" y="1666" type="curve"/>
+      <point x="405.999" y="1666"/>
+      <point x="378.851" y="1565.05"/>
+      <point x="318.653" y="1466.45" type="curve"/>
+      <point x="185.331" y="1246.56"/>
+      <point x="114.071" y="1138.61"/>
+      <point x="111.904" y="1112.61" type="curve"/>
+      <point x="109.09" y="1077.42"/>
+      <point x="126.52" y="1054"/>
+      <point x="172" y="1054" type="curve"/>
+      <point x="231.485" y="1054"/>
+      <point x="254.197" y="1090.64"/>
+      <point x="288.841" y="1164.74" type="curve"/>
+      <point x="367" y="1331"/>
+      <point x="426" y="1457"/>
+      <point x="510" y="1554" type="curve"/>
+      <point x="560" y="1470"/>
+      <point x="536.095" y="1050"/>
+    </contour>
+  </outline>
+</glyph>

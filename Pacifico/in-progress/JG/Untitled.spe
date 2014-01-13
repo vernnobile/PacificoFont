@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<designspace>
+<!-- Superpolator Designspace Object -->
+
+<!-- info -->
+<version format="131028_2106_developer_" superpolator="1" />
+<!-- application data -->
+<data name="zPreviewAxis" value="None" />
+<data name="horizontalPreviewAxis" value="new_axis_1" />
+<data name="preferLeftToRight" value="1" />
+<data name="previewTypeSize" value="100.0" />
+<data name="previewtext" value="Bellona." />
+<data name="verticalPreviewAxis" value="None" />
+<data name="projectionAngle" value="0.392699081699" />
+<!-- axis definitions -->
+<axis maximum="1000" minimum="0" name="new_axis_1" shortname="xx" />
+
+<!-- master definitions -->
+<master filename="Pacifico-Lightl.ufo">
+<location>
+</location>
+<!-- color for Pacifico-Lightl.ufo -->
+<color a="1.000000" b="1.000000" g="0.500000" r="0.000000" />
+</master>
+<master filename="Pacifico-Normal.ufo">
+<location>
+<dimension name="new_axis_1" xvalue="1000" />
+</location>
+<!-- color for Pacifico-Normal.ufo -->
+<color a="1.000000" b="0.500000" g="0.500000" r="0.500000" />
+</master>
+
+<!-- instance definitions -->
+</designspace>
