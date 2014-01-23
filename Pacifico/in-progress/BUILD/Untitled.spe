@@ -3,29 +3,29 @@
 <!-- Superpolator Designspace Object -->
 
 <!-- info -->
-<version format="131028_2106_developer_" superpolator="1" />
+<version format="100119_1225" superpolator="1" />
 <!-- application data -->
 <data name="zPreviewAxis" value="None" />
 <data name="horizontalPreviewAxis" value="pacifico-reg-bold" />
 <data name="preferLeftToRight" value="1" />
 <data name="previewTypeSize" value="64.0" />
-<data name="previewtext" value="Popularisation" />
+<data name="previewtext" value="Bellona" />
 <data name="verticalPreviewAxis" value="None" />
 <data name="projectionAngle" value="2.68561525327" />
 <!-- axis definitions -->
-<axis maximum="1000" minimum="0" name="pacifico-reg-bold" shortname="xx" />
+<axis maximum="1000.0" minimum="0.0" name="pacifico-reg-bold" shortname="xx" />
 
 <!-- master definitions -->
 <master filename="Pacifico-Light.ufo">
 <location>
-<dimension name="pacifico-reg-bold" xvalue="0" />
+<dimension name="pacifico-reg-bold" xvalue="0.0" />
 </location>
 <!-- color for Pacifico-Light.ufo -->
 <color a="1.000000" b="0.500000" g="1.000000" r="1.000000" />
 </master>
 <master filename="Pacifico-Regular.ufo">
 <location>
-<dimension name="pacifico-reg-bold" xvalue="1000" />
+<dimension name="pacifico-reg-bold" xvalue="1000.0" />
 </location>
 <!-- color for Pacifico-Regular.ufo -->
 <color a="1.000000" b="1.000000" g="0.000000" r="0.500000" />
@@ -34,27 +34,27 @@
 <!-- instance definitions -->
 <instance familyname="Pacifico" sequence="" stylename="xx0">
 <location>
-<dimension name="pacifico-reg-bold" xvalue="0" />
+<dimension name="pacifico-reg-bold" xvalue="0.0" />
 </location>
 </instance>
 <instance familyname="Pacifico" sequence="" stylename="xx0Copy">
 <location>
-<dimension name="pacifico-reg-bold" xvalue="300" />
+<dimension name="pacifico-reg-bold" xvalue="300.0" />
 </location>
 </instance>
 <instance familyname="Pacifico" sequence="" stylename="xx0Copy">
 <location>
-<dimension name="pacifico-reg-bold" xvalue="800" />
+<dimension name="pacifico-reg-bold" xvalue="800.0" />
 </location>
 </instance>
 <instance familyname="Pacifico" sequence="" stylename="xx0CopyCopy">
 <location>
-<dimension name="pacifico-reg-bold" xvalue="1200" yvalue="1100" />
+<dimension name="pacifico-reg-bold" xvalue="1200.0" yvalue="1100.0" />
 </location>
 </instance>
 <instance familyname="Pacifico" sequence="" stylename="xx0CopyCopyCopy">
 <location>
-<dimension name="pacifico-reg-bold" xvalue="1500" yvalue="1100" />
+<dimension name="pacifico-reg-bold" xvalue="1500.0" yvalue="1100.0" />
 </location>
 </instance>
 </designspace>
