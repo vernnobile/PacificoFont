@@ -42,22 +42,19 @@
       <point x="981" y="876"/>
       <point x="1220" y="891" type="curve"/>
       <point x="1307" y="252"/>
-      <point x="1407" y="-301"/>
-      <point x="1833" y="-301" type="curve" smooth="yes"/>
-      <point x="2056" y="-301"/>
-      <point x="2130" y="-233"/>
-      <point x="2183" y="-211" type="curve"/>
-      <point x="2203" y="-196"/>
-      <point x="2214" y="-177"/>
-      <point x="2215" y="-156" type="curve" smooth="yes"/>
-      <point x="2216" y="-107"/>
-      <point x="2169" y="-52"/>
-      <point x="2124" y="-52" type="curve" smooth="yes"/>
-      <point x="2056" y="-52"/>
-      <point x="1983" y="-86"/>
-      <point x="1917" y="-86" type="curve" smooth="yes"/>
-      <point x="1690" y="-86"/>
-      <point x="1571" y="273"/>
+      <point x="1724" y="-581"/>
+      <point x="2150" y="-581" type="curve" smooth="yes"/>
+      <point x="2373" y="-581"/>
+      <point x="2531" y="-410"/>
+      <point x="2593" y="-312" type="curve" smooth="yes"/>
+      <point x="2634" y="-247"/>
+      <point x="2518" y="-143"/>
+      <point x="2463" y="-202" type="curve" smooth="yes"/>
+      <point x="2345" y="-329"/>
+      <point x="2255" y="-338"/>
+      <point x="2170" y="-327" type="curve" smooth="yes"/>
+      <point x="1945" y="-298"/>
+      <point x="1601" y="202"/>
       <point x="1427" y="916" type="curve"/>
       <point x="1708" y="963"/>
       <point x="1948" y="1063"/>
@@ -72,10 +69,10 @@
       <point x="268" y="-395"/>
     </contour>
     <contour>
-      <point x="1018" y="2030" type="move" name="top"/>
+      <point x="1224" y="-300" type="move" name="bot"/>
     </contour>
     <contour>
-      <point x="1018" y="0" type="move" name="bot"/>
+      <point x="1018" y="2030" type="move" name="top"/>
     </contour>
   </outline>
   <lib>

@@ -51,10 +51,10 @@
       <point x="458" y="-275"/>
     </contour>
     <contour>
-      <point x="824" y="2030" type="move" name="top"/>
+      <point x="824" y="0" type="move" name="bot"/>
     </contour>
     <contour>
-      <point x="824" y="0" type="move" name="bot"/>
+      <point x="1298" y="2030" type="move" name="top"/>
     </contour>
   </outline>
   <lib>

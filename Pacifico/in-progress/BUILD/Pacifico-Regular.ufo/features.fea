@@ -1,0 +1,80 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+
+feature frac {
+# automatic
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+} frac;
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+} ordn;
+feature init {
+# automatic
+sub t by t.init;
+sub p by p.init;
+sub s by s.init;
+sub f by f.init;
+sub g by g.init;
+sub l by l.init;
+sub c by c.init;
+sub b by b.init;
+sub a by a.init;
+sub n by n.init;
+sub d by d.init;
+sub e by e.init;
+sub k by k.init;
+sub m by m.init;
+} init;
+feature fina {
+# automatic
+sub e by e.fina;
+sub m by m.fina;
+sub g by g.fina;
+sub f by f.fina;
+sub d by d.fina;
+sub h by h.fina;
+sub y by y.fina;
+sub s by s.fina;
+sub o by o.fina;
+sub n by n.fina;
+sub uniFB00 by uniFB00.fina;
+sub b by b.fina;
+sub l by l.fina;
+sub t by t.fina;
+sub p by p.fina;
+sub a by a.fina;
+sub c by c.fina;
+sub w by w.fina;
+} fina;
+feature dlig {
+sub o o s by o_o_s;
+sub i t t by i_t_t;
+sub o s by o_s;
+sub p t by p_t;
+sub o o by o_o;
+sub l i by l_i;
+sub l t by l_t;
+sub l k by l_k;
+sub l l by l_l;
+sub i x by i_x;
+sub i t by i_t;
+sub r s by r_s;
+sub o x by o_x;
+sub t t by t_t;
+sub c t by c_t;
+sub f i by uniFB01;
+sub f f by uniFB00;
+sub f l by uniFB02;
+sub W i by W_i;
+} dlig;
+feature cpsp {
+# automatic
+pos @Uppercase <5 0 10 0>;
+} cpsp;
