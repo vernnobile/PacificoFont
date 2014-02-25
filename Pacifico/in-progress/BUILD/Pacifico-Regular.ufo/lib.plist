@@ -556,7 +556,9 @@
 		<string>f.fina</string>
 		<string>OE</string>
 		<string>d.fina</string>
+		<string>uni00B2</string>
 		<string>o_s</string>
+		<string>uni00B9</string>
 		<string>t.init</string>
 		<string>p_t</string>
 		<string>Scaron</string>
@@ -611,9 +613,11 @@
 		<string>quotesingle</string>
 		<string>r_s</string>
 		<string>o_x</string>
+		<string>uni00B3</string>
 		<string>s.init</string>
 		<string>emdash</string>
 		<string>c.fina</string>
+		<string>uni2074</string>
 		<string>for</string>
 		<string>w.fina</string>
 		<string>uniFB00</string>
@@ -721,6 +725,7 @@
 		<string>uni01D3</string>
 		<string>uni01E8</string>
 		<string>uni01EA</string>
+		<string>uni01F4</string>
 		<string>uni01F8</string>
 		<string>uni0200</string>
 		<string>uni0202</string>
@@ -739,6 +744,13 @@
 		<string>uni0226</string>
 		<string>uni0228</string>
 		<string>uni0232</string>
+		<string>uni1E02</string>
+		<string>uni1E0A</string>
+		<string>uni1E1E</string>
+		<string>uni1E40</string>
+		<string>uni1E56</string>
+		<string>uni1E60</string>
+		<string>uni1E6A</string>
 		<string>uni1EBC</string>
 		<string>uni1EF8</string>
 		<string>abreve</string>
@@ -776,6 +788,7 @@
 		<string>iogonek</string>
 		<string>itilde</string>
 		<string>dotlessj</string>
+		<string>uni0237</string>
 		<string>jcircumflex</string>
 		<string>kcommaaccent</string>
 		<string>kgreenlandic</string>
@@ -819,6 +832,7 @@
 		<string>uni01E9</string>
 		<string>uni01EB</string>
 		<string>uni01F0</string>
+		<string>uni01F5</string>
 		<string>uni01F9</string>
 		<string>uni0201</string>
 		<string>uni0203</string>
@@ -837,6 +851,13 @@
 		<string>uni0227</string>
 		<string>uni0229</string>
 		<string>uni0233</string>
+		<string>uni1E03</string>
+		<string>uni1E0B</string>
+		<string>uni1E1F</string>
+		<string>uni1E41</string>
+		<string>uni1E57</string>
+		<string>uni1E61</string>
+		<string>uni1E6B</string>
 		<string>uni1EBD</string>
 		<string>uni1EF9</string>
 		<string>uogonek</string>
@@ -851,6 +872,8 @@
 		<string>zacute</string>
 		<string>zdotaccent</string>
 		<string>W_i</string>
+		<string>fi</string>
+		<string>fl</string>
 		<string>uniFB03</string>
 		<string>uniFB04</string>
 		<string>Delta</string>
@@ -864,7 +887,9 @@
 		<string>twosuperior</string>
 		<string>threesuperior</string>
 		<string>foursuperior</string>
+		<string>uni00AD</string>
 		<string>uni00A0</string>
+		<string>CR</string>
 		<string>approxequal</string>
 		<string>emptyset</string>
 		<string>greaterequal</string>

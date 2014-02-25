@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AE" format="1">
+  <advance width="3315"/>
+  <unicode hex="00C6"/>
+  <outline>
+    <component base="A"/>
+    <component base="E" xOffset="1896"/>
+    <contour>
+      <point x="1152" y="1940" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+    </dict>
+  </lib>
+</glyph>
