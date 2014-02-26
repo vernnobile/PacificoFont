@@ -21,8 +21,5 @@
       <point x="320" y="2311" type="curve" smooth="yes"/>
       <point x="547" y="2721" type="line"/>
     </contour>
-    <contour>
-      <point x="421" y="2030" type="move" name="_top"/>
-    </contour>
   </outline>
 </glyph>

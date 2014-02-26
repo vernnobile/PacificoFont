@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="M" format="1">
-  <advance width="2282.260"/>
+  <advance width="2282"/>
   <unicode hex="004D"/>
   <outline>
     <contour>
-      <point x="317" y="-118"/>
-      <point x="328" y="-85"/>
       <point x="363" y="11" type="curve" smooth="yes"/>
       <point x="679" y="889"/>
       <point x="983" y="1656"/>
@@ -55,7 +53,7 @@
       <point x="1476" y="1188" type="curve"/>
       <point x="1563" y="1561"/>
       <point x="1504" y="1840"/>
-      <point x="1269" y="1840" type="curve" smooth="yes"/>
+      <point x="1269" y="1840" type="curve"/>
       <point x="933" y="1833"/>
       <point x="763" y="1382"/>
       <point x="635" y="1030" type="curve"/>
@@ -74,22 +72,19 @@
       <point x="622" y="1702"/>
       <point x="618" y="1197"/>
       <point x="484" y="808" type="curve" smooth="yes"/>
-      <point x="180" y="-71" type="line" smooth="yes"/>
+      <point x="180" y="-71" type="line"/>
       <point x="180" y="-71"/>
       <point x="191" y="-118"/>
       <point x="252" y="-118" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="1141.13" y="0" type="move" name="bot"/>
-    </contour>
-    <contour>
-      <point x="1748" y="1940" type="move" name="top"/>
+      <point x="317" y="-118"/>
+      <point x="328" y="-85"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict/>
+    <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
     </dict>
   </lib>
 </glyph>

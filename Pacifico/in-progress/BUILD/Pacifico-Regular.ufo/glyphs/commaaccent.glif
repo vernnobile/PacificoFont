@@ -4,8 +4,5 @@
   <unicode hex="0326"/>
   <outline>
     <component base="comma" xOffset="-132" yOffset="-493"/>
-    <contour>
-      <point x="361" y="0" type="move" name="_bot"/>
-    </contour>
   </outline>
 </glyph>

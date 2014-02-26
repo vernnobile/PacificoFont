@@ -4,16 +4,16 @@
   <unicode hex="2022"/>
   <outline>
     <contour>
-      <point x="512" y="281" type="curve"/>
+      <point x="512" y="281" type="curve" smooth="yes"/>
       <point x="710.17" y="281"/>
       <point x="834" y="460.275"/>
-      <point x="834" y="672" type="curve"/>
+      <point x="834" y="672" type="curve" smooth="yes"/>
       <point x="834" y="805.224"/>
       <point x="770.922" y="866"/>
-      <point x="640" y="866" type="curve"/>
+      <point x="640" y="866" type="curve" smooth="yes"/>
       <point x="445.523" y="866"/>
       <point x="286" y="737.582"/>
-      <point x="286" y="544" type="curve"/>
+      <point x="286" y="544" type="curve" smooth="yes"/>
       <point x="286" y="381.839"/>
       <point x="361.181" y="281"/>
     </contour>

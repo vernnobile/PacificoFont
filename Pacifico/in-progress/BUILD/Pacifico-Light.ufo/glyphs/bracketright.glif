@@ -4,36 +4,36 @@
   <unicode hex="005D"/>
   <outline>
     <contour>
-      <point x="108" y="-162" type="curve"/>
-      <point x="416" y="-162" type="line"/>
+      <point x="108" y="-162" type="curve" smooth="yes"/>
+      <point x="416" y="-162" type="line" smooth="yes"/>
       <point x="581.157" y="-162"/>
       <point x="644.096" y="-73"/>
-      <point x="666.384" y="64.7841" type="curve"/>
+      <point x="666.384" y="64.7841" type="curve" smooth="yes"/>
       <point x="729.215" y="453.737"/>
       <point x="764.232" y="843.928"/>
-      <point x="830.43" y="1223.06" type="curve"/>
+      <point x="830.43" y="1223.06" type="curve" smooth="yes"/>
       <point x="849.92" y="1336.92"/>
       <point x="882" y="1421.5"/>
-      <point x="882" y="1528" type="curve"/>
+      <point x="882" y="1528" type="curve" smooth="yes"/>
       <point x="882" y="1608.7"/>
       <point x="830.739" y="1637"/>
-      <point x="735" y="1637" type="curve"/>
-      <point x="389" y="1637" type="line"/>
+      <point x="735" y="1637" type="curve" smooth="yes"/>
+      <point x="389" y="1637" type="line" smooth="yes"/>
       <point x="339.569" y="1637"/>
       <point x="294" y="1590.73"/>
-      <point x="294" y="1544" type="curve"/>
+      <point x="294" y="1544" type="curve" smooth="yes"/>
       <point x="294" y="1507.14"/>
       <point x="330.707" y="1473"/>
-      <point x="369" y="1473" type="curve"/>
+      <point x="369" y="1473" type="curve" smooth="yes"/>
       <point x="663.949" y="1473" type="line"/>
-      <point x="551.669" y="740.556" type="line"/>
+      <point x="551.669" y="740.556" type="line" smooth="yes"/>
       <point x="515.837" y="501.327"/>
       <point x="439.407" y="229.256"/>
       <point x="446.456" y="2" type="curve"/>
-      <point x="119" y="2" type="line"/>
+      <point x="119" y="2" type="line" smooth="yes"/>
       <point x="76.3638" y="2"/>
       <point x="30" y="-40"/>
-      <point x="30" y="-80" type="curve"/>
+      <point x="30" y="-80" type="curve" smooth="yes"/>
       <point x="30" y="-124"/>
       <point x="64.4862" y="-162"/>
     </contour>

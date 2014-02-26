@@ -78,17 +78,12 @@
       <point x="553" y="-296"/>
       <point x="470" y="-863"/>
     </contour>
-    <contour>
-      <point x="506.5" y="0" type="move" name="bot"/>
-    </contour>
-    <contour>
-      <point x="654" y="953" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict/>
+    <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
     </dict>
   </lib>
 </glyph>

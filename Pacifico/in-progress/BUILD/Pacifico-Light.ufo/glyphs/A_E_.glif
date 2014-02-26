@@ -5,14 +5,12 @@
   <outline>
     <component base="A"/>
     <component base="E" xOffset="1896"/>
-    <contour>
-      <point x="1152" y="1940" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict/>
+    <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
     </dict>
   </lib>
 </glyph>

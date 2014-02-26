@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="v" format="1">
-  <advance width="879.007"/>
+  <advance width="879"/>
   <unicode hex="0076"/>
   <outline>
     <contour>
-      <point x="4" y="292"/>
-      <point x="223" y="-96"/>
       <point x="366" y="-5" type="curve" smooth="yes"/>
       <point x="587" y="135"/>
       <point x="796" y="439"/>
@@ -22,10 +20,10 @@
       <point x="338" y="939"/>
       <point x="213" y="980"/>
       <point x="182" y="878" type="curve" smooth="yes"/>
+      <point x="4" y="292"/>
+      <point x="223" y="-96"/>
     </contour>
     <contour>
-      <point x="897" y="422"/>
-      <point x="1132" y="564"/>
       <point x="1227" y="737" type="curve" smooth="yes"/>
       <point x="1256" y="790"/>
       <point x="1177" y="852"/>
@@ -34,6 +32,8 @@
       <point x="927" y="572"/>
       <point x="727" y="587" type="curve"/>
       <point x="711" y="473" type="line"/>
+      <point x="897" y="422"/>
+      <point x="1132" y="564"/>
     </contour>
   </outline>
 </glyph>

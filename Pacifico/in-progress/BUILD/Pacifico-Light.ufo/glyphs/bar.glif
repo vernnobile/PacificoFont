@@ -7,16 +7,16 @@
       <point x="535" y="-29" type="curve"/>
       <point x="632" y="-60"/>
       <point x="713" y="15"/>
-      <point x="725" y="103" type="curve"/>
+      <point x="725" y="103" type="curve" smooth="yes"/>
       <point x="771" y="416"/>
       <point x="818.272" y="768.678"/>
-      <point x="866.279" y="1083.73" type="curve"/>
+      <point x="866.279" y="1083.73" type="curve" smooth="yes"/>
       <point x="899.52" y="1304.33"/>
       <point x="972" y="1555"/>
-      <point x="972" y="1772" type="curve"/>
+      <point x="972" y="1772" type="curve" smooth="yes"/>
       <point x="972" y="1819"/>
       <point x="944" y="1864"/>
-      <point x="902" y="1864" type="curve"/>
+      <point x="902" y="1864" type="curve" smooth="yes"/>
       <point x="815" y="1864"/>
       <point x="762" y="1804"/>
       <point x="750" y="1724" type="curve"/>

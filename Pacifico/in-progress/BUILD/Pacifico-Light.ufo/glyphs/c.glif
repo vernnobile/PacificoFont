@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="c" format="1">
-  <advance width="848.087"/>
+  <advance width="848"/>
   <unicode hex="0063"/>
   <outline>
     <contour>
@@ -41,17 +41,12 @@
       <point x="55" y="184"/>
       <point x="194" y="-5"/>
     </contour>
-    <contour>
-      <point x="444" y="0" type="move" name="bot"/>
-    </contour>
-    <contour>
-      <point x="404" y="953" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict/>
+    <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
     </dict>
   </lib>
 </glyph>

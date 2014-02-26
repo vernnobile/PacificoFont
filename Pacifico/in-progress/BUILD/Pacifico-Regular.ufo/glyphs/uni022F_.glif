@@ -3,7 +3,7 @@
   <advance width="944"/>
   <unicode hex="022F"/>
   <outline>
-    <component base="o"/>
     <component base="dotaccent" xOffset="326" yOffset="-1077"/>
+    <component base="o"/>
   </outline>
 </glyph>
