@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fdotaccent" format="1">
-  <advance width="706"/>
+  <advance width="345"/>
   <unicode hex="1E1F"/>
   <outline>
-    <component base="dotaccent" xOffset="25" yOffset="-987"/>
+    <component base="dotaccent" xOffset="300" yOffset="404"/>
     <component base="f"/>
   </outline>
 </glyph>

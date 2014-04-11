@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mdotaccent" format="1">
-  <advance width="1425"/>
+  <advance width="696"/>
   <unicode hex="1E41"/>
   <outline>
-    <component base="dotaccent"/>
+    <component base="dotaccent" xOffset="334"/>
     <component base="m"/>
   </outline>
 </glyph>

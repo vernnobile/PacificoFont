@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iogonek" format="1">
-  <advance width="537"/>
+  <advance width="183"/>
   <unicode hex="012F"/>
   <outline>
-    <component base="dotaccent" xOffset="103" yOffset="-987"/>
+    <component base="dotaccent" xOffset="53" yOffset="10"/>
     <component base="dotlessi"/>
     <component base="ogonek"/>
   </outline>

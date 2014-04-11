@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron" format="1">
-  <advance width="600"/>
+  <advance width="205"/>
   <unicode hex="00AF"/>
   <outline>
     <contour>
-      <point x="55" y="2412" type="curve" smooth="yes"/>
-      <point x="555" y="2443" type="line" smooth="yes"/>
-      <point x="591" y="2445"/>
-      <point x="608" y="2475"/>
-      <point x="608" y="2501" type="curve" smooth="yes"/>
-      <point x="608" y="2524"/>
-      <point x="598" y="2546"/>
-      <point x="552" y="2545" type="curve" smooth="yes"/>
-      <point x="61" y="2529" type="line" smooth="yes"/>
-      <point x="14" y="2527"/>
-      <point x="2" y="2499"/>
-      <point x="2" y="2471" type="curve" smooth="yes"/>
-      <point x="2" y="2431"/>
-      <point x="22" y="2411"/>
+      <point x="25" y="600" type="curve" smooth="yes"/>
+      <point x="194" y="616" type="line" smooth="yes"/>
+      <point x="207" y="618"/>
+      <point x="212" y="628"/>
+      <point x="212" y="637" type="curve" smooth="yes"/>
+      <point x="211" y="645"/>
+      <point x="208" y="652"/>
+      <point x="192" y="651" type="curve" smooth="yes"/>
+      <point x="25" y="640" type="line" smooth="yes"/>
+      <point x="10" y="639"/>
+      <point x="6" y="629"/>
+      <point x="6" y="619" type="curve" smooth="yes"/>
+      <point x="6" y="605"/>
+      <point x="13" y="598"/>
     </contour>
   </outline>
 </glyph>

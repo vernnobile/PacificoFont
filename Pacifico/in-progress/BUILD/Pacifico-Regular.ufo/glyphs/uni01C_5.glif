@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01C5" format="1">
-  <advance width="2263"/>
+  <advance width="842"/>
   <unicode hex="01C5"/>
   <outline>
     <component base="D"/>
-    <component base="caron" xOffset="1620" yOffset="-1077"/>
-    <component base="z" xOffset="1574"/>
+    <component base="caron" xOffset="626" yOffset="-13"/>
+    <component base="z" xOffset="607"/>
   </outline>
 </glyph>

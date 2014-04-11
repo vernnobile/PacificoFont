@@ -9,7 +9,7 @@
 <data name="horizontalPreviewAxis" value="pacifico-reg-bold" />
 <data name="preferLeftToRight" value="1" />
 <data name="previewTypeSize" value="64.0" />
-<data name="previewtext" value="Bellona" />
+<data name="previewtext" value="Pacifico Munster Thelema" />
 <data name="verticalPreviewAxis" value="None" />
 <data name="projectionAngle" value="2.68561525327" />
 <!-- axis definitions -->
@@ -32,29 +32,19 @@
 </master>
 
 <!-- instance definitions -->
-<instance familyname="Pacifico" sequence="" stylename="xx0">
+<instance familyname="Pacifico" sequence="" stylename="ExtraLight">
 <location>
 <dimension name="pacifico-reg-bold" xvalue="0.0" />
 </location>
 </instance>
-<instance familyname="Pacifico" sequence="" stylename="xx0Copy">
+<instance familyname="Pacifico" sequence="" stylename="Light">
 <location>
-<dimension name="pacifico-reg-bold" xvalue="300.0" />
+<dimension name="pacifico-reg-bold" xvalue="600.0" />
 </location>
 </instance>
-<instance familyname="Pacifico" sequence="" stylename="xx0Copy">
+<instance familyname="Pacifico" sequence="" stylename="Regular">
 <location>
-<dimension name="pacifico-reg-bold" xvalue="800.0" />
-</location>
-</instance>
-<instance familyname="Pacifico" sequence="" stylename="xx0CopyCopy">
-<location>
-<dimension name="pacifico-reg-bold" xvalue="1200.0" yvalue="1100.0" />
-</location>
-</instance>
-<instance familyname="Pacifico" sequence="" stylename="xx0CopyCopyCopy">
-<location>
-<dimension name="pacifico-reg-bold" xvalue="1500.0" yvalue="1100.0" />
+<dimension name="pacifico-reg-bold" xvalue="1300.0" yvalue="1100.0" />
 </location>
 </instance>
 </designspace>
