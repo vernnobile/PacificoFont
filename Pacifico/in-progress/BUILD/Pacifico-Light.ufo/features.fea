@@ -1,33 +1,28 @@
 # Prefix: Prefix
 languagesystem DFLT dflt;
 languagesystem latn dflt;
-
-# GSUB 
-
-
+# GSUB
 lookup fracDiagonalFractionsinLatinloo {
-  lookupflag 0;
-    sub \one \slash \two  by \onehalf;
-    sub \one \slash \four  by \onequarter;
-    sub \three \slash \four  by \threequarters;
+lookupflag 0;
+sub \one \slash \two  by \onehalf;
+sub \one \slash \four  by \onequarter;
+sub \three \slash \four  by \threequarters;
 } fracDiagonalFractionsinLatinloo;
-
 lookup ordnOrdinalsinLatinlookup1 {
-  lookupflag 0;
-    sub [  \zero \one \two \three \four \five \six \seven \eight \nine   ] [  \A \a   ]'  by [  \ordfeminine \ordfeminine   ];
-  subtable;
-    sub [  \zero \one \two \three \four \five \six \seven \eight \nine   ] [  \O \o   ]'  by [  \ordmasculine \ordmasculine   ];
+lookupflag 0;
+sub [   \zero \one \two \three \four \five \six \seven \eight \nine    ] [   \A \a    ]'  by [   \ordfeminine \ordfeminine    ];
+subtable;
+sub [   \zero \one \two \three \four \five \six \seven \eight \nine    ] [   \O \o    ]'  by [   \ordmasculine \ordmasculine    ];
 } ordnOrdinalsinLatinlookup1;
-
 lookup dligDiscretionaryLigaturesinLat {
-  lookupflag 0;
-    sub \f \f  by \uniFB00;
-    sub \f \i  by \uniFB01;
-    sub \f \l  by \uniFB02;
+lookupflag 0;
+sub \f \f  by \uniFB00;
+sub \f \i  by \uniFB01;
+sub \f \l  by \uniFB02;
 } dligDiscretionaryLigaturesinLat;
 
 feature frac {
- script DFLT;
+script DFLT;
      language dflt ;
       lookup fracDiagonalFractionsinLatinloo;
 
@@ -35,8 +30,9 @@ feature frac {
      language dflt ;
       lookup fracDiagonalFractionsinLatinloo;
 } frac;
+
 feature ordn {
- script DFLT;
+script DFLT;
      language dflt ;
       lookup ordnOrdinalsinLatinlookup1;
 
@@ -44,8 +40,9 @@ feature ordn {
      language dflt ;
       lookup ordnOrdinalsinLatinlookup1;
 } ordn;
+
 feature dlig {
- script DFLT;
+script DFLT;
      language dflt ;
       lookup dligDiscretionaryLigaturesinLat;
 
@@ -53,3 +50,4 @@ feature dlig {
      language dflt ;
       lookup dligDiscretionaryLigaturesinLat;
 } dlig;
+

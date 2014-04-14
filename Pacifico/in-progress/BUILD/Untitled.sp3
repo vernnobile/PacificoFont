@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<designspace format="2">
+    <!-- Superpolator Designspace Object -->
+    <!-- info -->
+    <version superpolator="2"/>
+    <!-- measurements -->
+    <!-- application data -->
+    <data name="horizontalPreviewAxis" value="pacifico-reg-bold"/>
+    <data name="lineViewFilled" value="True"/>
+    <data name="lineStacked" value="lined"/>
+    <data name="generateFontsAtFolder" value="/Users/vern/gitHub/PacificoFont/Pacifico/in-progress/BUILD/instances"/>
+    <data name="previewtext" value="Pacifico Munster Thelema"/>
+    <data name="verticalPreviewAxis" value="None"/>
+    <!-- don't generate these glyphs -->
+    <ignore glyphs=""/>
+    <!-- axis definitions -->
+    <axis initialvalue="0.000000" maximum="1000.000000" minimum="0.000000" name="pacifico-reg-bold" shortname="xx">
+        <color a="1.000" b="0.500" g="0.500" r="0.500"/>
+    </axis>
+    <!-- master definitions -->
+    <master familyname="Pacifico" filename="Pacifico-Light.ufo" sortorder="0" stylename="Light">
+        <location>
+            <dimension name="pacifico-reg-bold" xvalue="0.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Pacifico" filename="Pacifico-Regular.ufo" sortorder="1" stylename="Regular">
+        <location>
+            <dimension name="pacifico-reg-bold" xvalue="1000.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <!-- instance definitions -->
+    <instance familyname="Pacifico" filename="instances/Pacifico-Bold.ufo" sortorder="2" stylename="Bold">
+        <location>
+            <dimension name="pacifico-reg-bold" xvalue="1600.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+    </instance>
+</designspace>

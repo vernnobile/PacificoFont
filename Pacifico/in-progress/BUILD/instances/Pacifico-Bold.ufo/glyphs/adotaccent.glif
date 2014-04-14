@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="adotaccent" format="1">
+  <advance width="360"/>
+  <unicode hex="0227"/>
+  <outline>
+    <component base="a"/>
+    <component base="dotaccent" xOffset="137" yOffset="50"/>
+  </outline>
+</glyph>

@@ -10,7 +10,7 @@
       <point x="61" y="16" type="curve" smooth="yes"/>
       <point x="73" y="1"/>
       <point x="89" y="-3"/>
-      <point x="107" y="-0" type="curve"/>
+      <point x="107" y="0" type="curve"/>
       <point x="193" y="51" type="line"/>
       <point x="339" y="-24"/>
       <point x="485" y="-135"/>
@@ -61,7 +61,8 @@
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
-      <dict/>
+      <dict>
+      </dict>
     </dict>
   </lib>
 </glyph>
