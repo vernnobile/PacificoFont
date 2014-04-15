@@ -1,0 +1,63 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+languagesystem latn CAT;
+languagesystem latn ROM;
+languagesystem latn MOL;
+
+# automatic
+@Uppercase = [ A Aacute Abreve Acaron Acircumflex Adblgrave Adieresis Adotaccent Agrave Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute AEmacron B Bdotaccent C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D DZ DZcaron Eth Dcaron Dcroat Ddotaccent Dz Dzcaron E Eacute Ebreve Ecaron uni0228 Ecircumflex Edblgrave Edieresis Edotaccent Egrave Einvertedbreve Emacron Eogonek Etilde F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent H Hbar uni021E Hcircumflex I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idotaccent Igrave Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcaron Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Lj Lslash M Mdotaccent N NJ Nacute Ncaron Ncommaaccent uni01F8 Eng Nj Ntilde O Oacute Obreve Ocaron Ocircumflex Odblgrave Odieresis Ograve Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Oslashacute Otilde OE P Pdotaccent Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent T Tbar Tcaron uni021A Tdotaccent U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Ugrave Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Delta Sigma Omega uni022E ];
+
+feature aalt {
+# automatic
+feature locl;
+feature sups;
+feature frac;
+feature ordn;
+} aalt;
+
+feature locl {
+# automatic
+script latn;
+language CAT;
+sub  l' periodcentered' l by ldot;
+sub  L' periodcentered' L by Ldot;
+language ROM;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+language MOL;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+} locl;
+
+feature sups {
+# automatic
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+} sups;
+
+feature frac {
+# automatic
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+} frac;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+} ordn;
+
+feature liga {
+# automatic
+sub f f l by f_f_l;
+sub f f i by f_f_i;
+sub f i by fi;
+sub f f by f_f;
+} liga;
+
