@@ -14,7 +14,7 @@ feature aalt {
 feature locl;
 feature sups;
 feature frac;
-#feature ordn;
+feature ordn;
 } aalt;
 
 feature locl {
