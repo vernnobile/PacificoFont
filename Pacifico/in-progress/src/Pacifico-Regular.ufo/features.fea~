@@ -1,4 +1,5 @@
 # Prefix: Languagesystems
+# automatic
 languagesystem DFLT dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
@@ -6,17 +7,14 @@ languagesystem latn CAT;
 languagesystem latn ROM;
 languagesystem latn MOL;
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> FETCH_HEAD
 feature aalt {
 # automatic
 feature locl;
 feature sups;
 feature frac;
-#feature ordn;
+feature ordn;
 } aalt;
 
 feature locl {
@@ -48,15 +46,12 @@ sub one slash two by onehalf;
 sub three slash four by threequarters;
 } frac;
 
-<<<<<<< HEAD
-=======
 #feature ordn {
 ## automatic
 #sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 #sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 #} ordn;
 
->>>>>>> FETCH_HEAD
 feature dlig {
 # automatic
 sub f i by uniFB01;
