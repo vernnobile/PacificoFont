@@ -776,13 +776,11 @@
 		<string>Ydieresis</string>
 		<string>quotedblbase</string>
 		<string>bullet</string>
-		<string>uniFB01</string>
 		<string>Lslash</string>
 		<string>florin</string>
 		<string>quotesingle</string>
 		<string>emdash</string>
 		<string>uniFB00</string>
-		<string>uniFB02</string>
 		<string>daggerdbl</string>
 		<string>Abreve</string>
 		<string>Amacron</string>
@@ -863,7 +861,6 @@
 		<string>uni01D3</string>
 		<string>uni01E8</string>
 		<string>uni01EA</string>
-		<string>uni01F4</string>
 		<string>uni01F8</string>
 		<string>uni0200</string>
 		<string>uni0202</string>
@@ -882,13 +879,6 @@
 		<string>uni0226</string>
 		<string>uni0228</string>
 		<string>uni0232</string>
-		<string>uni1E02</string>
-		<string>uni1E0A</string>
-		<string>uni1E1E</string>
-		<string>uni1E40</string>
-		<string>uni1E56</string>
-		<string>uni1E60</string>
-		<string>uni1E6A</string>
 		<string>uni1EBC</string>
 		<string>uni1EF8</string>
 		<string>abreve</string>
@@ -923,7 +913,6 @@
 		<string>iogonek</string>
 		<string>itilde</string>
 		<string>dotlessj</string>
-		<string>uni0237</string>
 		<string>jcircumflex</string>
 		<string>kcommaaccent</string>
 		<string>kgreenlandic</string>
@@ -963,7 +952,6 @@
 		<string>uni01E9</string>
 		<string>uni01EB</string>
 		<string>uni01F0</string>
-		<string>uni01F5</string>
 		<string>uni01F9</string>
 		<string>uni0201</string>
 		<string>uni0203</string>
@@ -982,13 +970,6 @@
 		<string>uni0227</string>
 		<string>uni0229</string>
 		<string>uni0233</string>
-		<string>uni1E03</string>
-		<string>uni1E0B</string>
-		<string>uni1E1F</string>
-		<string>uni1E41</string>
-		<string>uni1E57</string>
-		<string>uni1E61</string>
-		<string>uni1E6B</string>
 		<string>uni1EBD</string>
 		<string>uni1EF9</string>
 		<string>uogonek</string>

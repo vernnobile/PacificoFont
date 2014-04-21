@@ -6,23 +6,23 @@
 	<dict>
 		<key>DE4BB00D-BABA-4D36-9D9A-44FD0E91C3DF</key>
 		<dict>
-	</dict>
+		</dict>
 	</dict>
 	<key>com.schriftgestaltung.fontMaster.userData</key>
 	<dict>
 		<key>GSOffsetHorizontal</key>
-		<real>21</real>
+		<real>21.0</real>
 		<key>GSOffsetVertical</key>
-		<real>20</real>
+		<real>20.0</real>
 	</dict>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>5ACEE878-7952-4CAC-A6A7-BEDE971843B4</string>
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<false/>
 	<key>com.schriftgestaltung.weightValue</key>
-	<real>400</real>
+	<real>400.0</real>
 	<key>com.schriftgestaltung.widthValue</key>
-	<real>5</real>
+	<real>5.0</real>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
@@ -861,7 +861,6 @@
 		<string>uni01D3</string>
 		<string>uni01E8</string>
 		<string>uni01EA</string>
-		<string>uni01F4</string>
 		<string>uni01F8</string>
 		<string>uni0200</string>
 		<string>uni0202</string>
@@ -880,20 +879,12 @@
 		<string>uni0226</string>
 		<string>uni0228</string>
 		<string>uni0232</string>
-		<string>uni1E02</string>
-		<string>uni1E0A</string>
-		<string>uni1E1E</string>
-		<string>uni1E40</string>
-		<string>uni1E56</string>
-		<string>uni1E60</string>
-		<string>uni1E6A</string>
 		<string>uni1EBC</string>
 		<string>uni1EF8</string>
 		<string>abreve</string>
 		<string>amacron</string>
 		<string>aogonek</string>
 		<string>aeacute</string>
-		<string>bdotaccent</string>
 		<string>cacute</string>
 		<string>ccaron</string>
 		<string>ccircumflex</string>
@@ -906,7 +897,6 @@
 		<string>edotaccent</string>
 		<string>emacron</string>
 		<string>eogonek</string>
-		<string>fdotaccent</string>
 		<string>gacute</string>
 		<string>gbreve</string>
 		<string>gcaron</string>
@@ -921,7 +911,6 @@
 		<string>iogonek</string>
 		<string>itilde</string>
 		<string>dotlessj</string>
-		<string>uni0237</string>
 		<string>jcircumflex</string>
 		<string>kcommaaccent</string>
 		<string>kgreenlandic</string>
@@ -961,7 +950,6 @@
 		<string>uni01E9</string>
 		<string>uni01EB</string>
 		<string>uni01F0</string>
-		<string>uni01F5</string>
 		<string>uni01F9</string>
 		<string>uni0201</string>
 		<string>uni0203</string>
@@ -981,12 +969,7 @@
 		<string>uni0229</string>
 		<string>uni0233</string>
 		<string>uni1E03</string>
-		<string>uni1E0B</string>
 		<string>uni1E1F</string>
-		<string>uni1E41</string>
-		<string>uni1E57</string>
-		<string>uni1E61</string>
-		<string>uni1E6B</string>
 		<string>uni1EBD</string>
 		<string>uni1EF9</string>
 		<string>uogonek</string>
@@ -1000,8 +983,6 @@
 		<string>ygrave</string>
 		<string>zacute</string>
 		<string>zdotaccent</string>
-		<string>fi</string>
-		<string>fl</string>
 		<string>uniFB03</string>
 		<string>uniFB04</string>
 		<string>Delta</string>

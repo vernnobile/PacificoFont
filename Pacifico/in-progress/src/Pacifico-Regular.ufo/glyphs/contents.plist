@@ -330,8 +330,6 @@
 	<string>backslash.glif</string>
 	<key>bar</key>
 	<string>bar.glif</string>
-	<key>bdotaccent</key>
-	<string>bdotaccent.glif</string>
 	<key>braceleft</key>
 	<string>braceleft.glif</string>
 	<key>braceright</key>
@@ -444,14 +442,8 @@
 	<string>exclamdown.glif</string>
 	<key>f</key>
 	<string>f.glif</string>
-	<key>fdotaccent</key>
-	<string>fdotaccent.glif</string>
-	<key>fi</key>
-	<string>fi.glif</string>
 	<key>five</key>
 	<string>five.glif</string>
-	<key>fl</key>
-	<string>fl.glif</string>
 	<key>florin</key>
 	<string>florin.glif</string>
 	<key>foundryicon</key>
@@ -820,10 +812,6 @@
 	<string>uni01F_2.glif</string>
 	<key>uni01F3</key>
 	<string>uni01F_3.glif</string>
-	<key>uni01F4</key>
-	<string>uni01F_4.glif</string>
-	<key>uni01F5</key>
-	<string>uni01F_5.glif</string>
 	<key>uni01F8</key>
 	<string>uni01F_8.glif</string>
 	<key>uni01F9</key>
@@ -900,8 +888,6 @@
 	<string>uni0232.glif</string>
 	<key>uni0233</key>
 	<string>uni0233.glif</string>
-	<key>uni0237</key>
-	<string>uni0237.glif</string>
 	<key>uni0259</key>
 	<string>uni0259.glif</string>
 	<key>uni02C9</key>
@@ -918,34 +904,10 @@
 	<string>uni0326.glif</string>
 	<key>uni0358</key>
 	<string>uni0358.glif</string>
-	<key>uni1E02</key>
-	<string>uni1E_02.glif</string>
 	<key>uni1E03</key>
 	<string>uni1E_03.glif</string>
-	<key>uni1E0A</key>
-	<string>uni1E_0A_.glif</string>
-	<key>uni1E0B</key>
-	<string>uni1E_0B_.glif</string>
-	<key>uni1E1E</key>
-	<string>uni1E_1E_.glif</string>
 	<key>uni1E1F</key>
 	<string>uni1E_1F_.glif</string>
-	<key>uni1E40</key>
-	<string>uni1E_40.glif</string>
-	<key>uni1E41</key>
-	<string>uni1E_41.glif</string>
-	<key>uni1E56</key>
-	<string>uni1E_56.glif</string>
-	<key>uni1E57</key>
-	<string>uni1E_57.glif</string>
-	<key>uni1E60</key>
-	<string>uni1E_60.glif</string>
-	<key>uni1E61</key>
-	<string>uni1E_61.glif</string>
-	<key>uni1E6A</key>
-	<string>uni1E_6A_.glif</string>
-	<key>uni1E6B</key>
-	<string>uni1E_6B_.glif</string>
 	<key>uni1EBC</key>
 	<string>uni1E_B_C_.glif</string>
 	<key>uni1EBD</key>
