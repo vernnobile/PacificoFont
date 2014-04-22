@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="napostrophe" format="1">
+  <advance width="338"/>
+  <unicode hex="0149"/>
+  <outline>
+    <component base="caron.alt"/>
+    <component base="n"/>
+    <contour>
+      <point x="103" y="343" type="move" name="caron.alt"/>
+    </contour>
+  </outline>
+</glyph>
