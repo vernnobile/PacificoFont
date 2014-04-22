@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lslash" format="1">
+  <advance width="248"/>
+  <unicode hex="0142"/>
+  <outline>
+    <component base="l"/>
+    <component base="macron" xOffset="61" yOffset="-74"/>
+  </outline>
+</glyph>

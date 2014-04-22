@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="1">
+  <advance width="205"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="76" y="339" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="64" y="458" type="move" name="_mid"/>
+    </contour>
+    <contour>
+      <point x="179" y="422" type="curve" smooth="yes"/>
+      <point x="200" y="422"/>
+      <point x="209" y="430"/>
+      <point x="209" y="448" type="curve" smooth="yes"/>
+      <point x="209" y="464"/>
+      <point x="196" y="470"/>
+      <point x="182" y="474" type="curve" smooth="yes"/>
+      <point x="121" y="483"/>
+      <point x="74" y="486"/>
+      <point x="39" y="486" type="curve" smooth="yes"/>
+      <point x="9" y="486"/>
+      <point x="-12" y="484"/>
+      <point x="-27" y="479" type="curve" smooth="yes"/>
+      <point x="-59" y="470"/>
+      <point x="-65" y="454"/>
+      <point x="-65" y="440" type="curve" smooth="yes"/>
+      <point x="-65" y="423"/>
+      <point x="-57" y="409"/>
+      <point x="-40" y="409" type="curve" smooth="yes"/>
+      <point x="-38" y="409"/>
+      <point x="-36" y="409"/>
+      <point x="-33" y="410" type="curve" smooth="yes"/>
+      <point x="0" y="417"/>
+      <point x="26" y="425"/>
+      <point x="90" y="425" type="curve" smooth="yes"/>
+      <point x="113" y="425"/>
+      <point x="144" y="422"/>
+    </contour>
+  </outline>
+</glyph>
