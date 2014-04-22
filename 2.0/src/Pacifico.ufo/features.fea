@@ -278,6 +278,7 @@ lookup cpspCapitalSpacinglookup0 {
     pos \Tcaron <5 0 10 0>;
     pos \Tcommaaccent <5 0 10 0>;
     pos \uni021A <5 0 10 0>;
+    pos \uni021A <5 0 10 0>;
     pos \uni1E6A <5 0 10 0>;
     pos \Thorn <5 0 10 0>;
     pos \U <5 0 10 0>;
@@ -335,7 +336,6 @@ lookup cpspCapitalSpacinglookup0 {
     pos \uni0212 <5 0 10 0>;
     pos \uni0214 <5 0 10 0>;
     pos \uni0216 <5 0 10 0>;
-    pos \uni021A <5 0 10 0>;
     pos \uni021E <5 0 10 0>;
     pos \uni0226 <5 0 10 0>;
     pos \uni0228 <5 0 10 0>;
@@ -365,7 +365,6 @@ feature cpsp {
      language ROM  exclude_dflt;
       lookup cpspCapitalSpacinglookup0;
 } cpsp;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \AE \AEacute \Aacute \Abreve \Acircumflex \Adieresis \Agrave 
 	\Amacron \Aogonek \Aring \Aringacute \Atilde \B \uni1E02 \C \Cacute \Ccaron 
@@ -418,7 +417,7 @@ feature cpsp {
 	\uni021F \uni0226 \uni0227 \uni0228 \uni0229 \uni022E \uni022F \uni0232 \uni0233 
 	\uni0259 \uni1E03 \uni1E1F \uni1EBC \uni1EBD \uni1EF8 \uni1EF9 \uni2215 \uni2219 
 	\uogonek \uring \utilde \v \w \wacute \wcircumflex \wdieresis \wgrave \x \y \yacute 
-	\ycircumflex \ydieresis \yen \ygrave \z \zacute \zcaron \zdotaccent \zero ];
+	\ycircumflex \ydieresis \yen \ygrave \z \zacute \zcaron \zdotaccent \zero \longs ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters \uniFB00 
 	\uniFB01 \uniFB02 \uniFB03 \uniFB04 ];
 @GDEF_Mark = [\acute \breve \caron \caron.alt \cedilla \circumflex \dieresis 

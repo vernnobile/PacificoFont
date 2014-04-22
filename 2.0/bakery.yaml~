@@ -1,7 +1,7 @@
 copyright_license: ofl
 copyright_notice: Copyright (c) 2012-14, vernon adams (vern@newtypography.co.uk)
 hinting_level: '1'
-license_file: 2.0/OFL.txt
+license_file: src/OFL.txt
 process_files: [2.0/src/Pacifico.ufo, 2.0/src/Pacifico-Light.ufo, 2.0/src/Pacifico-Bold.ufo]
 rfn_asserted: 'no'
 rfn_permission: 'True'
@@ -12,5 +12,5 @@ subset: [menu, latin, latin-ext+latin]
 trademark_notice: ''
 trademark_permission: ''
 ttfautohint: -l 8 -r 50 -G 200 -x 0 -f none -w G -W
-txt_files_copied: [2.0/FONTLOG.txt]
+txt_files_copied: [src/OFL.txt]
 
