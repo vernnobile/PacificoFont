@@ -1,1 +1,17 @@
-#
+copyright_license: ofl
+copyright_notice: Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk)
+design_category: display
+hinting_level: '4'
+license_file: 2.0/OFL.txt
+prints_ok: 'yes'
+process_files: [2.0/src/Pacifico.ufo, 2.0/src/Pacifico-Light.ufo, 2.0/src/Pacifico-Bold.ufo]
+rfn_asserted: 'no'
+rfn_permission: 'yes'
+source_cff_filetype: ''
+source_drawing_filetype: UFO
+source_ttf_filetype: UFO
+subset: [menu, latin, latin-ext+latin]
+trademark_notice: Pacifico is a trademark of vernon adams.
+trademark_permission: ''
+ttfautohint: -l 8 -r 50 -G 200 -x 0 -f none -w G -W
+txt_files_copied: [2.0/FONTLOG.txt]
