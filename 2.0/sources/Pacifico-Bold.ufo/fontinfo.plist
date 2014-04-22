@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-	<key>familyName</key>
-	<string>Pacifico</string>
-	<key>styleName</key>
-	<string>Bold</string>
-	<key>copyright</key>
-	<string></string>
-	<key>unitsPerEm</key>
-	<integer>1000</integer>
-	<key>xHeight</key>
-	<integer>328</integer>
-	<key>capHeight</key>
-	<integer>675</integer>
+<dict>
 	<key>ascender</key>
 	<integer>708</integer>
+	<key>capHeight</key>
+	<integer>675</integer>
+	<key>copyright</key>
+	<string></string>
 	<key>descender</key>
 	<integer>-459</integer>
+	<key>familyName</key>
+	<string>Pacifico</string>
 	<key>italicAngle</key>
-	<real>0</real>
+	<real>0.0</real>
 	<key>note</key>
 	<string></string>
 	<key>openTypeHeadCreated</key>
@@ -32,12 +26,6 @@
 	<integer>0</integer>
 	<key>openTypeNameVersion</key>
 	<string>Version 2.0</string>
-	<key>openTypeOS2WidthClass</key>
-	<integer>5</integer>
-	<key>openTypeOS2WeightClass</key>
-	<integer>700</integer>
-	<key>openTypeOS2VendorID</key>
-	<string>NeWT</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>0</integer>
@@ -49,6 +37,12 @@
 	<integer>200</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
+	<key>openTypeOS2VendorID</key>
+	<string>NeWT</string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>700</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
 	<integer>1214</integer>
 	<key>openTypeOS2WinDescent</key>
@@ -57,11 +51,17 @@
 	<string>Pacifico-Bold</string>
 	<key>postscriptFullName</key>
 	<string>Pacifico Bold</string>
-	<key>postscriptWeightName</key>
-	<string>Bold</string>
-	<key>postscriptUnderlineThickness</key>
-	<integer>0</integer>
 	<key>postscriptUnderlinePosition</key>
 	<integer>0</integer>
-    </dict>
+	<key>postscriptUnderlineThickness</key>
+	<integer>0</integer>
+	<key>postscriptWeightName</key>
+	<string>Bold</string>
+	<key>styleName</key>
+	<string>Bold</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>xHeight</key>
+	<integer>328</integer>
+</dict>
 </plist>
