@@ -68,6 +68,9 @@
       <point x="436" y="563" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="298" y="456" type="move" name="mid"/>
+    </contour>
+    <contour>
       <point x="521" y="555" type="move" name="caron.alt"/>
     </contour>
   </outline>

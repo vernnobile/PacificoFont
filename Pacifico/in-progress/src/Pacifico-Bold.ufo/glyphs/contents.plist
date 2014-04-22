@@ -274,6 +274,8 @@
 	<string>T_bar.glif</string>
 	<key>Tcaron</key>
 	<string>T_caron.glif</string>
+	<key>Tcedilla</key>
+	<string>T_cedilla.glif</string>
 	<key>Tdotaccent</key>
 	<string>T_dotaccent.glif</string>
 	<key>Thorn</key>
@@ -422,6 +424,8 @@
 	<string>cacute.glif</string>
 	<key>caron</key>
 	<string>caron.glif</string>
+	<key>caron.alt</key>
+	<string>caron.alt.glif</string>
 	<key>ccaron</key>
 	<string>ccaron.glif</string>
 	<key>ccedilla</key>
@@ -470,6 +474,8 @@
 	<string>dotaccent.glif</string>
 	<key>dotlessi</key>
 	<string>dotlessi.glif</string>
+	<key>dotlessj</key>
+	<string>dotlessj.glif</string>
 	<key>dz</key>
 	<string>dz.glif</string>
 	<key>dzcaron</key>
@@ -840,6 +846,8 @@
 	<string>tbar.glif</string>
 	<key>tcaron</key>
 	<string>tcaron.glif</string>
+	<key>tcedila</key>
+	<string>tcedila.glif</string>
 	<key>tdotaccent</key>
 	<string>tdotaccent.glif</string>
 	<key>thorn</key>

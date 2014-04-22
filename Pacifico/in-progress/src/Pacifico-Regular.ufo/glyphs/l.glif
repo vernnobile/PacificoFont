@@ -40,5 +40,8 @@
       <point x="292" y="473"/>
       <point x="203" y="340"/>
     </contour>
+    <contour>
+      <point x="426" y="455" type="move" name="caron.alt"/>
+    </contour>
   </outline>
 </glyph>

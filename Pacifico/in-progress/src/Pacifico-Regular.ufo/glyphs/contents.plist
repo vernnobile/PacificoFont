@@ -222,6 +222,8 @@
 	<string>T_bar.glif</string>
 	<key>Tcaron</key>
 	<string>T_caron.glif</string>
+	<key>Tcedilla</key>
+	<string>T_cedilla.glif</string>
 	<key>Tcommaaccent</key>
 	<string>T_commaaccent.glif</string>
 	<key>Tdotaccent</key>
@@ -350,6 +352,8 @@
 	<string>cacute.glif</string>
 	<key>caron</key>
 	<string>caron.glif</string>
+	<key>caron.alt</key>
+	<string>caron.alt.glif</string>
 	<key>ccaron</key>
 	<string>ccaron.glif</string>
 	<key>ccedilla</key>
@@ -716,6 +720,8 @@
 	<string>tbar.glif</string>
 	<key>tcaron</key>
 	<string>tcaron.glif</string>
+	<key>tcedilla</key>
+	<string>tcedilla.glif</string>
 	<key>tcommaaccent</key>
 	<string>tcommaaccent.glif</string>
 	<key>tdotaccent</key>

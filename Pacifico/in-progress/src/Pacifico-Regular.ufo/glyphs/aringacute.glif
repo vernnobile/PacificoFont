@@ -4,7 +4,7 @@
   <unicode hex="01FB"/>
   <outline>
     <component base="a"/>
-    <component base="acute" xOffset="147"/>
     <component base="ring" xOffset="120"/>
+    <component base="acute" xOffset="208" yOffset="185"/>
   </outline>
 </glyph>

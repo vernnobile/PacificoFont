@@ -7,17 +7,21 @@
 	<key>capHeight</key>
 	<integer>658</integer>
 	<key>copyright</key>
-	<string>Copyright (c) 2011-13 by vernon adams. All rights reserved.</string>
+	<string>Copyright (c) 2011-14 by vernon adams. All rights reserved.</string>
 	<key>descender</key>
 	<integer>-459</integer>
 	<key>note</key>
 	<string></string>
 	<key>openTypeHeadCreated</key>
-	<string>2014/04/14 16:45:51</string>
+	<string>2014/04/22 08:49:09</string>
 	<key>openTypeNameDesigner</key>
 	<string>vernon adams</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>newtypography.co.uk</string>
 	<key>openTypeNameManufacturer</key>
 	<string>vernon adams</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>newtypography.co.uk</string>
 	<key>openTypeNamePreferredFamilyName</key>
 	<string>Pacifico</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
@@ -48,7 +52,7 @@
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>versionMinor</key>
 	<integer>0</integer>
 	<key>xHeight</key>

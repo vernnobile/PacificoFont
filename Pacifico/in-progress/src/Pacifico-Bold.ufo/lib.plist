@@ -152,6 +152,7 @@
 		<string>T</string>
 		<string>Tbar</string>
 		<string>Tcaron</string>
+		<string>Tcedilla</string>
 		<string>uni021A</string>
 		<string>Tdotaccent</string>
 		<string>U</string>
@@ -261,6 +262,7 @@
 		<string>iogonek</string>
 		<string>itilde</string>
 		<string>j</string>
+		<string>dotlessj</string>
 		<string>jcaron</string>
 		<string>jcircumflex</string>
 		<string>k</string>
@@ -489,6 +491,7 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
+		<string>caron.alt</string>
 		<string>uni0311</string>
 		<string>uni0326</string>
 		<string>uni0312</string>
@@ -497,6 +500,7 @@
 		<string>uni0307</string>
 		<string>firsttonechinese</string>
 		<string>foundryicon</string>
+		<string>tcedila</string>
 	</array>
 </dict>
 </plist>

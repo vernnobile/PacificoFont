@@ -38,7 +38,13 @@
       <point x="149" y="156"/>
     </contour>
     <contour>
-      <point x="170" y="0" type="move" name="ogonek"/>
+      <point x="241" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="217" y="343" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="163" y="0" type="move" name="bot"/>
     </contour>
   </outline>
   <lib>

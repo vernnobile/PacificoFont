@@ -47,6 +47,9 @@
     <contour>
       <point x="652" y="658" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="906" y="583" type="move" name="caron.alt"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -42,10 +42,13 @@
       <point x="253" y="-90"/>
     </contour>
     <contour>
-      <point x="266" y="-104" type="move" name="bot"/>
+      <point x="289" y="-113" type="move" name="bot"/>
     </contour>
     <contour>
       <point x="432" y="658" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="336" y="304" type="move" name="mid"/>
     </contour>
   </outline>
   <lib>

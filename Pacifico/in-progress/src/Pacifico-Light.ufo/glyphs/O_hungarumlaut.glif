@@ -4,6 +4,6 @@
   <unicode hex="0150"/>
   <outline>
     <component base="O"/>
-    <component base="hungarumlaut" xOffset="348" yOffset="325"/>
+    <component base="hungarumlaut" xOffset="388" yOffset="325"/>
   </outline>
 </glyph>

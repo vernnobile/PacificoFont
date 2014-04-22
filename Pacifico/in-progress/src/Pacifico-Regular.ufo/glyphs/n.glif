@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n" format="1">
-  <advance width="344"/>
+  <advance width="366"/>
   <unicode hex="006E"/>
   <outline>
     <contour>
@@ -55,6 +55,9 @@
     </contour>
     <contour>
       <point x="236" y="339" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="138" y="425" type="move" name="caron.alt"/>
     </contour>
   </outline>
   <lib>

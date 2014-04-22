@@ -64,5 +64,8 @@
       <point x="296" y="473"/>
       <point x="211" y="376"/>
     </contour>
+    <contour>
+      <point x="181" y="0" type="move" name="bot"/>
+    </contour>
   </outline>
 </glyph>

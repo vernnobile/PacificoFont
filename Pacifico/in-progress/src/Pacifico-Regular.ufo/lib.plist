@@ -6,23 +6,23 @@
 	<dict>
 		<key>DE4BB00D-BABA-4D36-9D9A-44FD0E91C3DF</key>
 		<dict>
-		</dict>
+	</dict>
 	</dict>
 	<key>com.schriftgestaltung.fontMaster.userData</key>
 	<dict>
 		<key>GSOffsetHorizontal</key>
-		<real>21.0</real>
+		<real>21</real>
 		<key>GSOffsetVertical</key>
-		<real>20.0</real>
+		<real>20</real>
 	</dict>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>5ACEE878-7952-4CAC-A6A7-BEDE971843B4</string>
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<false/>
 	<key>com.schriftgestaltung.weightValue</key>
-	<real>400.0</real>
+	<real>400</real>
 	<key>com.schriftgestaltung.widthValue</key>
-	<real>5.0</real>
+	<real>5</real>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
@@ -1043,6 +1043,9 @@
 		<string>afii61289</string>
 		<string>uni0312</string>
 		<string>uni0358</string>
+		<string>caron.alt</string>
+		<string>Tcedilla</string>
+		<string>tcedilla</string>
 	</array>
 </dict>
 </plist>

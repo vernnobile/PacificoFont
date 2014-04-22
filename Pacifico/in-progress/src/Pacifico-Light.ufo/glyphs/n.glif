@@ -56,6 +56,9 @@
     <contour>
       <point x="252" y="333" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="184" y="0" type="move" name="bot"/>
+    </contour>
   </outline>
   <lib>
     <dict>

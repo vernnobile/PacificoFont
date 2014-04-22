@@ -14,7 +14,7 @@
       <point x="162" y="-188"/>
     </contour>
     <contour>
-      <point x="219" y="77" type="move" name="_bot"/>
+      <point x="241" y="77" type="move" name="_bot"/>
     </contour>
   </outline>
 </glyph>

@@ -5,7 +5,7 @@
   <outline>
     <component base="comma" xOffset="-43" yOffset="-184"/>
     <contour>
-      <point x="103" y="0" type="move" name="_bot"/>
+      <point x="143" y="0" type="move" name="_bot"/>
     </contour>
   </outline>
 </glyph>

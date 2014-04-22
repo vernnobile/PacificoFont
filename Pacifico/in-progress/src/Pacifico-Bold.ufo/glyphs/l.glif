@@ -40,5 +40,14 @@
       <point x="299" y="558"/>
       <point x="303" y="551"/>
     </contour>
+    <contour>
+      <point x="349" y="623" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="436" y="406" type="move" name="caron.alt"/>
+    </contour>
+    <contour>
+      <point x="149" y="404" type="move" name="mid"/>
+    </contour>
   </outline>
 </glyph>
